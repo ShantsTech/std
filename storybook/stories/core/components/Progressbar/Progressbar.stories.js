@@ -17,8 +17,8 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import Progressbar from '@ohrm/std/core/components/Progressbar/Progressbar.vue';
-import {TYPES} from '@ohrm/std/core/components/Progressbar/types';
+import Progressbar from '@sthrm/std/core/components/Progressbar/Progressbar.vue';
+import {TYPES} from '@sthrm/std/core/components/Progressbar/types';
 
 export default {
   title: 'Example/Progressbar',

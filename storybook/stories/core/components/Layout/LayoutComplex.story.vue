@@ -86,22 +86,22 @@
 
 <script>
 import {topMenuItems, sidePanelItems, headers, breadcrumb} from './mockdata';
-import Text from '@ohrm/std/core/components/Text/Text';
-import Layout from '@ohrm/std/core/components/Layout/Layout';
-import TableFilter from '@ohrm/std/core/components/TableFilter/TableFilter';
-import Grid from '@ohrm/std/core/components/Grid/Grid';
-import GridItem from '@ohrm/std/core/components/Grid/GridItem';
-import Form from '@ohrm/std/core/components/Form/Form';
-import FormRow from '@ohrm/std/core/components/Form/FormRow';
-import FormActions from '@ohrm/std/core/components/Form/FormActions';
-import InputField from '@ohrm/std/core/components/InputField/InputField';
-import InputGroup from '@ohrm/std/core/components/InputField/InputGroup';
-import IconButton from '@ohrm/std/core/components/Button/Icon';
-import Button from '@ohrm/std/core/components/Button/Button';
-import Divider from '@ohrm/std/core/components/Divider/Divider';
-import ReportTable from '@ohrm/std/core/components/ReportTable/ReportTable';
-import Pagination from '@ohrm/std/core/components/Pagination/Pagination';
-import Icon from '@ohrm/std/core/components/Icon/Icon';
+import Text from '@sthrm/std/core/components/Text/Text';
+import Layout from '@sthrm/std/core/components/Layout/Layout';
+import TableFilter from '@sthrm/std/core/components/TableFilter/TableFilter';
+import Grid from '@sthrm/std/core/components/Grid/Grid';
+import GridItem from '@sthrm/std/core/components/Grid/GridItem';
+import Form from '@sthrm/std/core/components/Form/Form';
+import FormRow from '@sthrm/std/core/components/Form/FormRow';
+import FormActions from '@sthrm/std/core/components/Form/FormActions';
+import InputField from '@sthrm/std/core/components/InputField/InputField';
+import InputGroup from '@sthrm/std/core/components/InputField/InputGroup';
+import IconButton from '@sthrm/std/core/components/Button/Icon';
+import Button from '@sthrm/std/core/components/Button/Button';
+import Divider from '@sthrm/std/core/components/Divider/Divider';
+import ReportTable from '@sthrm/std/core/components/ReportTable/ReportTable';
+import Pagination from '@sthrm/std/core/components/Pagination/Pagination';
+import Icon from '@sthrm/std/core/components/Icon/Icon';
 
 export default {
   name: 'Layout',
@@ -125,12 +125,12 @@ export default {
   },
   data() {
     return {
-      brandLogoSrc: require('@ohrm/std/assets/images/logo.png'),
-      brandBannerSrc: require('@ohrm/std/assets/images/orangehrm-logo.png'),
+      brandLogoSrc: require('@sthrm/std/assets/images/logo.png'),
+      brandBannerSrc: require('@sthrm/std/assets/images/orangehrm-logo.png'),
       user: {
         firstName: 'Jeff',
         lastName: 'Winger',
-        profImgSrc: require('@ohrm/std/assets/images/logo.png'),
+        profImgSrc: require('@sthrm/std/assets/images/logo.png'),
       },
       filters: {
         username: '',

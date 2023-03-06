@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Progressbar from '@ohrm/std/core/components/Progressbar/Progressbar.vue';
+import Progressbar from '@sthrm/std/core/components/Progressbar/Progressbar.vue';
 
 describe('Progressbar.vue', () => {
   it('renders STD Progressbar', () => {

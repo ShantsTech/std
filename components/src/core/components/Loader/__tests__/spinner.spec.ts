@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Spinner from '@ohrm/std/core/components/Loader/Spinner.vue';
+import Spinner from '@sthrm/std/core/components/Loader/Spinner.vue';
 
 describe('Loader > Spinner.vue', () => {
   it('renders STD Spinner', () => {

@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import Card from '@ohrm/std/core/components/Card/Card';
+import Card from '@sthrm/std/core/components/Card/Card';
 
 export default {
   title: 'Example/Card',

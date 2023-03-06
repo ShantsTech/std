@@ -16,7 +16,7 @@
     "types": ["webpack-env", "jest"],
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
     "paths": {
-      "@ohrm/std/*": ["components/src/*"]
+      "@sthrm/std/*": ["components/src/*"]
     }
   },
   "include": [

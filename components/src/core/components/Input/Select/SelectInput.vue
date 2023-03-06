@@ -68,9 +68,9 @@ import {defineComponent} from 'vue';
 import eventsMixin from './events-mixin';
 import navigationMixin from './navigation-mixin';
 import {TOP, BOTTOM, Option, Position, DROPDOWN_POSITIONS} from '../types';
-import SelectText from '@ohrm/std/core/components/Input/Select/SelectText.vue';
-import SelectDropdown from '@ohrm/std/core/components/Input/Select/SelectDropdown.vue';
-import SelectOption from '@ohrm/std/core/components/Input/Select/SelectOption.vue';
+import SelectText from '@sthrm/std/core/components/Input/Select/SelectText.vue';
+import SelectDropdown from '@sthrm/std/core/components/Input/Select/SelectDropdown.vue';
+import SelectOption from '@sthrm/std/core/components/Input/Select/SelectOption.vue';
 import usei18n from '../../../../composables/usei18n';
 
 export default defineComponent({

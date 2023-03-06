@@ -18,11 +18,11 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
-import SelectInput from '@ohrm/std/core/components/Input/Select/SelectInput.vue';
-import SelectText from '@ohrm/std/core/components/Input/Select/SelectText.vue';
-import SelectOption from '@ohrm/std/core/components/Input/Select/SelectOption.vue';
-import SelectDropdown from '@ohrm/std/core/components/Input/Select/SelectDropdown.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
+import SelectInput from '@sthrm/std/core/components/Input/Select/SelectInput.vue';
+import SelectText from '@sthrm/std/core/components/Input/Select/SelectText.vue';
+import SelectOption from '@sthrm/std/core/components/Input/Select/SelectOption.vue';
+import SelectDropdown from '@sthrm/std/core/components/Input/Select/SelectDropdown.vue';
 
 const options = [
   {

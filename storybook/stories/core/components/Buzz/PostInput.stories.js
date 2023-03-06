@@ -18,9 +18,9 @@
  */
 
 import {h, ref} from 'vue';
-import Form from '@ohrm/std/core/components/Form/Form';
-import Button from '@ohrm/std/core/components/Button/Button';
-import BuzzPostInput from '@ohrm/std/core/components/Buzz/BuzzPostInput';
+import Form from '@sthrm/std/core/components/Form/Form';
+import Button from '@sthrm/std/core/components/Button/Button';
+import BuzzPostInput from '@sthrm/std/core/components/Buzz/BuzzPostInput';
 
 export default {
   title: 'Example/Buzz/PostInput',

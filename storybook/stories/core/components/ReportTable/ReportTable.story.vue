@@ -36,8 +36,8 @@
 </template>
 
 <script>
-import ReportTable from '@ohrm/std/core/components/ReportTable/ReportTable';
-import Pagination from '@ohrm/std/core/components/Pagination/Pagination';
+import ReportTable from '@sthrm/std/core/components/ReportTable/ReportTable';
+import Pagination from '@sthrm/std/core/components/Pagination/Pagination';
 
 export default {
   data() {

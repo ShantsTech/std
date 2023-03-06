@@ -64,8 +64,8 @@ import {
   defineComponent,
 } from 'vue';
 import usei18n from '../../../../composables/usei18n';
-import Input from '@ohrm/std/core/components/Input/Input.vue';
-import Label from '@ohrm/std/core/components/Label/Label.vue';
+import Input from '@sthrm/std/core/components/Input/Input.vue';
+import Label from '@sthrm/std/core/components/Label/Label.vue';
 import {clamp, hex2Hsv, hsv2Hex, sanitizeHex} from '../../../../utils/color';
 
 export default defineComponent({

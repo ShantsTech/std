@@ -18,8 +18,8 @@
  */
 
 import {mount} from '@vue/test-utils';
-import DateInput from '@ohrm/std/core/components/Input/DateInput.vue';
-import Input from '@ohrm/std/core/components/Input/Input.vue';
+import DateInput from '@sthrm/std/core/components/Input/DateInput.vue';
+import Input from '@sthrm/std/core/components/Input/Input.vue';
 import {formatDate, freshDate} from '../../../../utils/date';
 
 describe('DateInput.vue', () => {

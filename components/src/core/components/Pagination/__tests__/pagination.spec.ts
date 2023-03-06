@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Pagination from '@ohrm/std/core/components/Pagination/Pagination.vue';
+import Pagination from '@sthrm/std/core/components/Pagination/Pagination.vue';
 
 describe('Pagination.vue', () => {
   it('renders STD Pagination', () => {

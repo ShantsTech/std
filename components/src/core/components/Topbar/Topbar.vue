@@ -60,10 +60,10 @@
 <script lang="ts">
 import {defineComponent, PropType} from 'vue';
 import {TopMenuItem, User, Breadcrumb} from './types';
-import Text from '@ohrm/std/core/components/Text/Text.vue';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
-import Navigation from '@ohrm/std/core/components/Topbar/Navigation.vue';
-import UserDropdown from '@ohrm/std/core/components/Topbar/UserDropdown.vue';
+import Text from '@sthrm/std/core/components/Text/Text.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
+import Navigation from '@sthrm/std/core/components/Topbar/Navigation.vue';
+import UserDropdown from '@sthrm/std/core/components/Topbar/UserDropdown.vue';
 
 export default defineComponent({
   name: 'std-top-bar',

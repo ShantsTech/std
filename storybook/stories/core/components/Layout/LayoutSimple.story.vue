@@ -50,7 +50,7 @@
 
 <script>
 import {topMenuItems, sidePanelItems, breadcrumb} from './mockdata';
-import Layout from '@ohrm/std/core/components/Layout/Layout';
+import Layout from '@sthrm/std/core/components/Layout/Layout';
 
 export default {
   name: 'Layout',
@@ -59,8 +59,8 @@ export default {
   },
   data() {
     return {
-      brandLogoSrc: require('@ohrm/std/assets/images/logo.png'),
-      brandBannerSrc: require('@ohrm/std/assets/images/orangehrm-logo.png'),
+      brandLogoSrc: require('@sthrm/std/assets/images/logo.png'),
+      brandBannerSrc: require('@sthrm/std/assets/images/orangehrm-logo.png'),
       user: {
         firstName: 'Jeff',
         lastName: 'Winger',

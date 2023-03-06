@@ -18,8 +18,8 @@
  */
 import {h} from 'vue';
 import {mount} from '@vue/test-utils';
-import TabPanel from '@ohrm/std/core/components/Tab/TabPanel.vue';
-import TabContainer from '@ohrm/std/core/components/Tab/TabContainer.vue';
+import TabPanel from '@sthrm/std/core/components/Tab/TabPanel.vue';
+import TabContainer from '@sthrm/std/core/components/Tab/TabContainer.vue';
 
 const Tabs = [
   h(

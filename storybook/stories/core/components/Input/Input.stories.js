@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import Input from '@ohrm/std/core/components/Input/Input';
+import Input from '@sthrm/std/core/components/Input/Input';
 
 export default {
   title: 'Example/Input',

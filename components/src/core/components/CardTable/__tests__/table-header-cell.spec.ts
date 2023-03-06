@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import TableHeaderCell from '@ohrm/std/core/components/CardTable/Table/TableHeaderCell.vue';
+import TableHeaderCell from '@sthrm/std/core/components/CardTable/Table/TableHeaderCell.vue';
 
 describe('CardTable > TableHeaderCell.vue', () => {
   it('renders STD CardTable > TableHeaderCell', () => {

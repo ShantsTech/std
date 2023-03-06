@@ -18,7 +18,7 @@
  */
 
 import {shallowMount} from '@vue/test-utils';
-import Alert from '@ohrm/std/core/components/Alert/Alert.vue';
+import Alert from '@sthrm/std/core/components/Alert/Alert.vue';
 
 describe('Alert.vue', () => {
   it('renders STD Alert', () => {

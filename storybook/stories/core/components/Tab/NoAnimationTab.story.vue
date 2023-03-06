@@ -68,8 +68,8 @@
 </template>
 
 <script>
-import TabPanel from '@ohrm/std/core/components/Tab/TabPanel';
-import TabContainer from '@ohrm/std/core/components/Tab/TabContainer';
+import TabPanel from '@sthrm/std/core/components/Tab/TabPanel';
+import TabContainer from '@sthrm/std/core/components/Tab/TabContainer';
 
 export default {
   components: {

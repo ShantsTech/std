@@ -66,7 +66,7 @@
 
 <script lang="ts">
 import {defineComponent, PropType, ref} from 'vue';
-import IconButton from '@ohrm/std/core/components/Button/Icon.vue';
+import IconButton from '@sthrm/std/core/components/Button/Icon.vue';
 import {TNode} from './types';
 import {nanoid} from 'nanoid';
 

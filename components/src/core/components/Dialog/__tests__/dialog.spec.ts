@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Dialog from '@ohrm/std/core/components/Dialog/Dialog.vue';
+import Dialog from '@sthrm/std/core/components/Dialog/Dialog.vue';
 
 describe('Dialog > Dialog.vue', () => {
   it('should renders STD Dialog > Dialog', () => {

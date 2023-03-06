@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import Divider from '@ohrm/std/core/components/Divider/Divider';
+import Divider from '@sthrm/std/core/components/Divider/Divider';
 
 export default {
   title: 'Example/Divider',

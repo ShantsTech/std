@@ -17,9 +17,9 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import Alert from '@ohrm/std/core/components/Alert/Alert';
-import Button from '@ohrm/std/core/components/Button/Button';
-import {TYPES} from '@ohrm/std/core/components/Alert/types';
+import Alert from '@sthrm/std/core/components/Alert/Alert';
+import Button from '@sthrm/std/core/components/Button/Button';
+import {TYPES} from '@sthrm/std/core/components/Alert/types';
 import AlertContainer from './AlertContainer';
 
 export default {

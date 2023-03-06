@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Toast from '@ohrm/std/core/components/Toast/CloseButton.vue';
+import Toast from '@sthrm/std/core/components/Toast/CloseButton.vue';
 
 describe('Toast > CloseButton.vue', () => {
   it('should renders STD ToastCloseButton', () => {

@@ -23,7 +23,7 @@
 import {computed, defineComponent, h, unref} from 'vue';
 import {TYPES, TYPE_BOOTSTRAP} from './types';
 import * as SVGs from './map';
-import SVGLoader from '@ohrm/std/core/components/Icon/SVGLoader.vue';
+import SVGLoader from '@sthrm/std/core/components/Icon/SVGLoader.vue';
 
 export default defineComponent({
   name: 'std-icon',

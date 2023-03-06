@@ -67,11 +67,11 @@
 </template>
 
 <script>
-import Form from '@ohrm/std/core/components/Form/Form';
-import FormRow from '@ohrm/std/core/components/Form/FormRow';
-import Input from '@ohrm/std/core/components/Input/Input';
-import Label from '@ohrm/std/core/components/Label/Label';
-import InputField from '@ohrm/std/core/components/InputField/InputField';
+import Form from '@sthrm/std/core/components/Form/Form';
+import FormRow from '@sthrm/std/core/components/Form/FormRow';
+import Input from '@sthrm/std/core/components/Input/Input';
+import Label from '@sthrm/std/core/components/Label/Label';
+import InputField from '@sthrm/std/core/components/InputField/InputField';
 
 export default {
   data() {

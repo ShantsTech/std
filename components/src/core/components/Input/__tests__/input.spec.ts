@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Input from '@ohrm/std/core/components/Input/Input.vue';
+import Input from '@sthrm/std/core/components/Input/Input.vue';
 
 describe('Input.vue', () => {
   it('renders STD Input', () => {

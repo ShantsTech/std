@@ -18,9 +18,9 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Calendar from '@ohrm/std/core/components/Calendar/Calendar.vue';
-import DateVue from '@ohrm/std/core/components/Calendar/Date.vue';
-import Icon from '@ohrm/std/core/components/Button/Icon.vue';
+import Calendar from '@sthrm/std/core/components/Calendar/Calendar.vue';
+import DateVue from '@sthrm/std/core/components/Calendar/Date.vue';
+import Icon from '@sthrm/std/core/components/Button/Icon.vue';
 import {nextSunday, nextSaturday, freshDate} from '../../../../utils/date';
 
 describe('Calendar.vue', () => {

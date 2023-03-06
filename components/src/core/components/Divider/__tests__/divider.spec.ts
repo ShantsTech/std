@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Divider from '@ohrm/std/core/components/Divider/Divider.vue';
+import Divider from '@sthrm/std/core/components/Divider/Divider.vue';
 
 describe('Divider.vue', () => {
   it('renders STD Divider', () => {

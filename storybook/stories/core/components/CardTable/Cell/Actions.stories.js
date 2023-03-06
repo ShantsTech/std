@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import CellActions from '@ohrm/std/core/components/CardTable/Cell/Actions';
+import CellActions from '@sthrm/std/core/components/CardTable/Cell/Actions';
 
 export default {
   title: 'Example/CardTable/Cell',

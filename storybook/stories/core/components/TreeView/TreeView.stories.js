@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import TreeView from '@ohrm/std/core/components/TreeView/TreeView.vue';
+import TreeView from '@sthrm/std/core/components/TreeView/TreeView.vue';
 import CustomTemplate from './CustomTemplate.vue';
 
 export default {

@@ -17,8 +17,8 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import Icon from '@ohrm/std/core/components/Icon/Icon';
-import * as SVGs from '@ohrm/std/core/components/Icon/map';
+import Icon from '@sthrm/std/core/components/Icon/Icon';
+import * as SVGs from '@sthrm/std/core/components/Icon/map';
 
 export default {
   title: 'Example/Icon (svg)',

@@ -38,8 +38,8 @@
 
 <script lang="ts">
 import {defineComponent} from 'vue';
-import Text from '@ohrm/std/core/components/Text/Text.vue';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
+import Text from '@sthrm/std/core/components/Text/Text.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
 
 export default defineComponent({
   name: 'std-main-menu-item',

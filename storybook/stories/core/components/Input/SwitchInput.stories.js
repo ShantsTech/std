@@ -17,8 +17,8 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import SwitchInput from '@ohrm/std/core/components/Input/SwitchInput';
-import {RIGHT, LABEL_POSITIONS} from '@ohrm/std/core/components/Input/types';
+import SwitchInput from '@sthrm/std/core/components/Input/SwitchInput';
+import {RIGHT, LABEL_POSITIONS} from '@sthrm/std/core/components/Input/types';
 
 export default {
   title: 'Example/SwitchInput',

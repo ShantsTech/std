@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import Icon from '@ohrm/std/core/components/Icon/Icon';
+import Icon from '@sthrm/std/core/components/Icon/Icon';
 import icons from 'bootstrap-icons/font/bootstrap-icons.json';
 
 export default {

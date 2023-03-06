@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import Chip from '@ohrm/std/core/components/Chip/Chip';
+import Chip from '@sthrm/std/core/components/Chip/Chip';
 
 export default {
   title: 'Example/Chip',

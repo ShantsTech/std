@@ -60,9 +60,9 @@
 <script lang="ts">
 import {Order} from '../types';
 import {defineComponent} from 'vue';
-import Text from '@ohrm/std/core/components/Text/Text.vue';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
-import IconButton from '@ohrm/std/core/components/Button/Icon.vue';
+import Text from '@sthrm/std/core/components/Text/Text.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
+import IconButton from '@sthrm/std/core/components/Button/Icon.vue';
 import clickOutsideDirective from '../../../../directives/click-outside';
 import usei18n from '../../../../composables/usei18n';
 

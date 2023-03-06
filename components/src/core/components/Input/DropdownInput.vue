@@ -103,10 +103,10 @@
 </template>
 
 <script lang="ts">
-import Chip from '@ohrm/std/core/components/Chip/Chip.vue';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
-import Input from '@ohrm/std/core/components/Input/Input.vue';
-import Spinner from '@ohrm/std/core/components/Loader/Spinner.vue';
+import Chip from '@sthrm/std/core/components/Chip/Chip.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
+import Input from '@sthrm/std/core/components/Input/Input.vue';
+import Spinner from '@sthrm/std/core/components/Loader/Spinner.vue';
 import debounce from '../../../utils/debounce';
 import usei18n from '../../../composables/usei18n';
 import {defineComponent, onBeforeMount, PropType, reactive, toRefs} from 'vue';

@@ -43,8 +43,8 @@
 <script lang="ts">
 import {defineComponent, PropType} from 'vue';
 import {User} from './types';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
-import DropdownMenu from '@ohrm/std/core/components/DropdownMenu/DropdownMenu.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
+import DropdownMenu from '@sthrm/std/core/components/DropdownMenu/DropdownMenu.vue';
 
 export default defineComponent({
   name: 'std-user-dropdown',

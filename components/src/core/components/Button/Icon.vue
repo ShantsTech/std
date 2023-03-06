@@ -42,7 +42,7 @@
 import {defineComponent} from 'vue';
 import {ICON_TYPES, ButtonType} from './types';
 import {TYPE_BOOTSTRAP, TYPES} from '../Icon/types';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
 
 export default defineComponent({
   name: 'std-icon-button',

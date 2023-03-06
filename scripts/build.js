@@ -51,7 +51,7 @@ componentsDirFiles.forEach(function(file) {
 });
 
 const packageJson = require(path.join(pathToComponentsDir, 'package.json'));
-packageJson.name = '@ohrm/std';
+packageJson.name = '@sthrm/std';
 fs.writeFileSync(
   path.join(pathToBuildDir, 'package.json'),
   JSON.stringify(packageJson, null, 2) + '\n',

@@ -40,7 +40,7 @@
 <script lang="ts">
 import {DataPoint} from './types';
 import {defineComponent, PropType} from 'vue';
-import Text from '@ohrm/std/core/components/Text/Text.vue';
+import Text from '@sthrm/std/core/components/Text/Text.vue';
 
 export default defineComponent({
   name: 'std-chart-legend',

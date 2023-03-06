@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
 
 describe('Icon.vue', () => {
   it('renders STD Icon', () => {

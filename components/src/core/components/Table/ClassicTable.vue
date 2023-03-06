@@ -79,13 +79,13 @@
 
 <script lang="ts">
 import {defineComponent} from 'vue';
-import Table from '@ohrm/std/core/components/Table/Table.vue';
-import TableHeader from '@ohrm/std/core/components/Table/TableHeader.vue';
-import TableBody from '@ohrm/std/core/components/Table/TableBody.vue';
-import TableFooter from '@ohrm/std/core/components/Table/TableFooter.vue';
-import TableRow from '@ohrm/std/core/components/Table/TableRow.vue';
-import TableHeaderCell from '@ohrm/std/core/components/Table/TableHeaderCell.vue';
-import TableDataCell from '@ohrm/std/core/components/Table/TableDataCell.vue';
+import Table from '@sthrm/std/core/components/Table/Table.vue';
+import TableHeader from '@sthrm/std/core/components/Table/TableHeader.vue';
+import TableBody from '@sthrm/std/core/components/Table/TableBody.vue';
+import TableFooter from '@sthrm/std/core/components/Table/TableFooter.vue';
+import TableRow from '@sthrm/std/core/components/Table/TableRow.vue';
+import TableHeaderCell from '@sthrm/std/core/components/Table/TableHeaderCell.vue';
+import TableDataCell from '@sthrm/std/core/components/Table/TableDataCell.vue';
 
 export default defineComponent({
   name: 'std-clasic-table',

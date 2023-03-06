@@ -37,7 +37,7 @@
 <script lang="ts">
 import {defineComponent, inject, computed, onBeforeUnmount} from 'vue';
 import emitter from '../../../../utils/emitter';
-import CheckboxInput from '@ohrm/std/core/components/Input/CheckboxInput.vue';
+import CheckboxInput from '@sthrm/std/core/components/Input/CheckboxInput.vue';
 import {cellMixin} from './cell-mixin';
 
 export default defineComponent({

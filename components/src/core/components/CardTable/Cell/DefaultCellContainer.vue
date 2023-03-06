@@ -28,7 +28,7 @@ import {
   defineComponent,
   resolveComponent,
 } from 'vue';
-import TableDataCell from '@ohrm/std/core/components/CardTable/Table/TableDataCell.vue';
+import TableDataCell from '@sthrm/std/core/components/CardTable/Table/TableDataCell.vue';
 import DefaultCell from './Default.vue';
 import ActionsCell from './Actions.vue';
 import CheckboxCell from './Checkbox.vue';

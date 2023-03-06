@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import RadioInput from '@ohrm/std/core/components/Input/RadioInput.vue';
+import RadioInput from '@sthrm/std/core/components/Input/RadioInput.vue';
 
 describe('RadioInput.vue', () => {
   it('renders STD Radio Input', () => {

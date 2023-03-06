@@ -17,11 +17,11 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import AutocompleteInput from '@ohrm/std/core/components/Input/Autocomplete/AutocompleteInput';
+import AutocompleteInput from '@sthrm/std/core/components/Input/Autocomplete/AutocompleteInput';
 import {
   BOTTOM,
   DROPDOWN_POSITIONS,
-} from '@ohrm/std/core/components/Input/types';
+} from '@sthrm/std/core/components/Input/types';
 import {h, ref} from 'vue';
 import AutocompleteCustom from './AutocompleteCustom.story.vue';
 

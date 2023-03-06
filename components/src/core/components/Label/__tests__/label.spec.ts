@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Label from '@ohrm/std/core/components/Label/Label.vue';
+import Label from '@sthrm/std/core/components/Label/Label.vue';
 
 describe('Label.vue', () => {
   it('renders STD Label', () => {

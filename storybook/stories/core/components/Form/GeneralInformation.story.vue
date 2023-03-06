@@ -76,11 +76,11 @@
 </template>
 
 <script>
-import Form from '@ohrm/std/core/components/Form/Form';
-import FormRow from '@ohrm/std/core/components/Form/FormRow';
-import InputField from '@ohrm/std/core/components/InputField/InputField';
-import Grid from '@ohrm/std/core/components/Grid/Grid';
-import GridItem from '@ohrm/std/core/components/Grid/GridItem';
+import Form from '@sthrm/std/core/components/Form/Form';
+import FormRow from '@sthrm/std/core/components/Form/FormRow';
+import InputField from '@sthrm/std/core/components/InputField/InputField';
+import Grid from '@sthrm/std/core/components/Grid/Grid';
+import GridItem from '@sthrm/std/core/components/Grid/GridItem';
 
 export default {
   name: 'GeneralInformation',

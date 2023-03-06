@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import BarChart from '@ohrm/std/core/components/Chart/BarChart';
+import BarChart from '@sthrm/std/core/components/Chart/BarChart';
 import {generateRandomColor} from '../../../../../components/src/utils/color';
 
 export default {

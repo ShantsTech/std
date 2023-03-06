@@ -1,8 +1,8 @@
-import GlassButton from '@ohrm/std/core/components/Button/GlassButton';
+import GlassButton from '@sthrm/std/core/components/Button/GlassButton';
 import {
   GLASS_ICON_TYPES,
   TYPE_GLASS_VIDEO,
-} from '@ohrm/std/core/components/Button/types';
+} from '@sthrm/std/core/components/Button/types';
 
 export default {
   title: 'Example/Button/GlassButton',

@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import Overlay from '@ohrm/std/core/components/Dialog/Overlay';
+import Overlay from '@sthrm/std/core/components/Dialog/Overlay';
 
 export default {
   title: 'Example/Dialog/Overlay',

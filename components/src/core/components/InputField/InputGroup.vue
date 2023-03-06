@@ -44,9 +44,9 @@
 
 <script lang="ts">
 import {defineComponent} from 'vue';
-import Label from '@ohrm/std/core/components/Label/Label.vue';
-import Text from '@ohrm/std/core/components/Text/Text.vue';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
+import Label from '@sthrm/std/core/components/Label/Label.vue';
+import Text from '@sthrm/std/core/components/Text/Text.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
 
 export default defineComponent({
   name: 'std-input-group',

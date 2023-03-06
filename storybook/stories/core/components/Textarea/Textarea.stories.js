@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import Textarea from '@ohrm/std/core/components/Textarea/Textarea';
+import Textarea from '@sthrm/std/core/components/Textarea/Textarea';
 
 export default {
   title: 'Example/Textarea',

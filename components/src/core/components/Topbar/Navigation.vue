@@ -59,8 +59,8 @@ import {
 } from 'vue';
 import {TopMenuItem} from './types';
 import useResize from '../../../composables/useResize';
-import NavigationLink from '@ohrm/std/core/components/Topbar/NavigationLink.vue';
-import NavigationMore from '@ohrm/std/core/components/Topbar/NavigationMore.vue';
+import NavigationLink from '@sthrm/std/core/components/Topbar/NavigationLink.vue';
+import NavigationMore from '@sthrm/std/core/components/Topbar/NavigationMore.vue';
 
 export default defineComponent({
   name: 'std-navigation',

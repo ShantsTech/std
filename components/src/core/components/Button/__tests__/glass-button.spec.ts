@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import GlassButton from '@ohrm/std/core/components/Button/GlassButton.vue';
+import GlassButton from '@sthrm/std/core/components/Button/GlassButton.vue';
 
 describe('Button > GlassButton.vue', () => {
   it('should renders STD glass button', () => {

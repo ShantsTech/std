@@ -18,8 +18,8 @@
  */
 
 import {mount} from '@vue/test-utils';
-import AutocompleteInput from '@ohrm/std/core/components/Input/Autocomplete/AutocompleteInput.vue';
-import AutocompleteTextInput from '@ohrm/std/core/components/Input/Autocomplete/AutocompleteTextInput.vue';
+import AutocompleteInput from '@sthrm/std/core/components/Input/Autocomplete/AutocompleteInput.vue';
+import AutocompleteTextInput from '@sthrm/std/core/components/Input/Autocomplete/AutocompleteTextInput.vue';
 
 const options = [
   {

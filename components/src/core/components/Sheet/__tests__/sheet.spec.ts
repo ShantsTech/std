@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Sheet from '@ohrm/std/core/components/Sheet/Sheet.vue';
+import Sheet from '@sthrm/std/core/components/Sheet/Sheet.vue';
 
 describe('Sheet.vue', () => {
   it('should renders STD Sheet', () => {

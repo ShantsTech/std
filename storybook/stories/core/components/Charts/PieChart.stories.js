@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import PieChart from '@ohrm/std/core/components/Chart/PieChart';
+import PieChart from '@sthrm/std/core/components/Chart/PieChart';
 import {generateRandomColor} from '../../../../../components/src/utils/color';
 
 export default {

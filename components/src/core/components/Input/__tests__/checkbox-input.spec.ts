@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import CheckboxInput from '@ohrm/std/core/components/Input/CheckboxInput.vue';
+import CheckboxInput from '@sthrm/std/core/components/Input/CheckboxInput.vue';
 
 describe('CheckboxInput.vue', () => {
   it('renders STD Checkbox Input', () => {

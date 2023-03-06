@@ -52,9 +52,9 @@
 </template>
 
 <script>
-import TreeView from '@ohrm/std/core/components/TreeView/TreeView';
-import Sheet from '@ohrm/std/core/components/Sheet/Sheet';
-import IconButton from '@ohrm/std/core/components/Button/Icon';
+import TreeView from '@sthrm/std/core/components/TreeView/TreeView';
+import Sheet from '@sthrm/std/core/components/Sheet/Sheet';
+import IconButton from '@sthrm/std/core/components/Button/Icon';
 
 export default {
   components: {

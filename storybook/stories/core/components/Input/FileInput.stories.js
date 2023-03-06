@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import FileInput from '@ohrm/std/core/components/Input/FileInput';
+import FileInput from '@sthrm/std/core/components/Input/FileInput';
 import {computed, h, ref} from 'vue';
 
 export default {
@@ -37,7 +37,7 @@ const Template = args => ({
   template: '<std-file-input v-bind="args" />',
 });
 
-const defaultPic = require('@ohrm/std/assets/images/user-default-400.png');
+const defaultPic = require('@sthrm/std/assets/images/user-default-400.png');
 
 const SlotTemplate = args => ({
   setup() {

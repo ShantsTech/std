@@ -31,7 +31,7 @@
 
 <script lang="ts">
 import {defineComponent} from 'vue';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
 import {pageableMixin} from '../../../mixins/pageable';
 
 export default defineComponent({

@@ -96,17 +96,17 @@
 </template>
 
 <script>
-import Grid from '@ohrm/std/core/components/Grid/Grid';
-import Form from '@ohrm/std/core/components/Form/Form';
-import Text from '@ohrm/std/core/components/Text/Text';
-import Sheet from '@ohrm/std/core/components/Sheet/Sheet';
-import FormRow from '@ohrm/std/core/components/Form/FormRow';
-import Button from '@ohrm/std/core/components/Button/Button';
-import GridItem from '@ohrm/std/core/components/Grid/GridItem';
-import Divider from '@ohrm/std/core/components/Divider/Divider';
-import FormActions from '@ohrm/std/core/components/Form/FormActions';
-import InputField from '@ohrm/std/core/components/InputField/InputField';
-import SelectInput from '@ohrm/std/core/components/Input/Select/SelectInput';
+import Grid from '@sthrm/std/core/components/Grid/Grid';
+import Form from '@sthrm/std/core/components/Form/Form';
+import Text from '@sthrm/std/core/components/Text/Text';
+import Sheet from '@sthrm/std/core/components/Sheet/Sheet';
+import FormRow from '@sthrm/std/core/components/Form/FormRow';
+import Button from '@sthrm/std/core/components/Button/Button';
+import GridItem from '@sthrm/std/core/components/Grid/GridItem';
+import Divider from '@sthrm/std/core/components/Divider/Divider';
+import FormActions from '@sthrm/std/core/components/Form/FormActions';
+import InputField from '@sthrm/std/core/components/InputField/InputField';
+import SelectInput from '@sthrm/std/core/components/Input/Select/SelectInput';
 
 export default {
   name: 'DefaultGrid',

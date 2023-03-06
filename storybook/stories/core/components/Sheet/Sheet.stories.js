@@ -17,8 +17,8 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import Sheet from '@ohrm/std/core/components/Sheet/Sheet';
-import {TYPES} from '@ohrm/std/core/components/Sheet/types';
+import Sheet from '@sthrm/std/core/components/Sheet/Sheet';
+import {TYPES} from '@sthrm/std/core/components/Sheet/types';
 import SheetWithGuttersStory from './SheetWithGutters.story.vue';
 import SheetWithBackgroundStory from './SheetWithBackground.story.vue';
 

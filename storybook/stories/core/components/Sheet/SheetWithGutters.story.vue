@@ -28,8 +28,8 @@
 </template>
 
 <script>
-import Sheet from '@ohrm/std/core/components/Sheet/Sheet';
-import Text from '@ohrm/std/core/components/Text/Text';
+import Sheet from '@sthrm/std/core/components/Sheet/Sheet';
+import Text from '@sthrm/std/core/components/Text/Text';
 
 export default {
   components: {

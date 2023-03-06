@@ -51,9 +51,9 @@
 </template>
 <script lang="ts">
 import {defineComponent} from 'vue';
-import Text from '@ohrm/std/core/components/Text/Text.vue';
-import Icon from '@ohrm/std/core/components/Button/Icon.vue';
-import CalendarDropdown from '@ohrm/std/core/components/Calendar/CalendarDropdown.vue';
+import Text from '@sthrm/std/core/components/Text/Text.vue';
+import Icon from '@sthrm/std/core/components/Button/Icon.vue';
+import CalendarDropdown from '@sthrm/std/core/components/Calendar/CalendarDropdown.vue';
 
 export default defineComponent({
   name: 'std-calendar-controller',

@@ -18,8 +18,8 @@
  */
 
 import {mount, shallowMount} from '@vue/test-utils';
-import CalendarController from '@ohrm/std/core/components/Calendar/CalendarController.vue';
-import Icon from '@ohrm/std/core/components/Button/Icon.vue';
+import CalendarController from '@sthrm/std/core/components/Calendar/CalendarController.vue';
+import Icon from '@sthrm/std/core/components/Button/Icon.vue';
 
 describe('CalendarController.vue', () => {
   // https://github.com/jsdom/jsdom/issues/1695

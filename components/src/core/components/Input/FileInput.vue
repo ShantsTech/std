@@ -53,7 +53,7 @@
 <script lang="ts">
 import {defineComponent} from 'vue';
 import {OutputFile} from './types';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
 import usei18n from '../../../composables/usei18n';
 
 export interface State {

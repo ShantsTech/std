@@ -51,9 +51,9 @@
 
 <script lang="ts">
 import {defineComponent, ref, watchEffect} from 'vue';
-import Text from '@ohrm/std/core/components/Text/Text.vue';
-import Divider from '@ohrm/std/core/components/Divider/Divider.vue';
-import IconButton from '@ohrm/std/core/components/Button/Icon.vue';
+import Text from '@sthrm/std/core/components/Text/Text.vue';
+import Divider from '@sthrm/std/core/components/Divider/Divider.vue';
+import IconButton from '@sthrm/std/core/components/Button/Icon.vue';
 import useResponsive, {
   DEVICE_LG,
   DEVICE_XL,

@@ -18,8 +18,8 @@
  */
 
 import {mount} from '@vue/test-utils';
-import TreeView from '@ohrm/std/core/components/TreeView/TreeView.vue';
-import TreeNode from '@ohrm/std/core/components/TreeView/TreeNode.vue';
+import TreeView from '@sthrm/std/core/components/TreeView/TreeView.vue';
+import TreeNode from '@sthrm/std/core/components/TreeView/TreeNode.vue';
 import {h} from 'vue';
 
 const data = {

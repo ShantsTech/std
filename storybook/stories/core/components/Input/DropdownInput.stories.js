@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import DropdownInput from '@ohrm/std/core/components/Input/DropdownInput';
+import DropdownInput from '@sthrm/std/core/components/Input/DropdownInput';
 import {h, ref} from 'vue';
 
 export default {

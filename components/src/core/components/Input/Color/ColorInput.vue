@@ -47,7 +47,7 @@
 import {computed, defineComponent, reactive, toRefs} from 'vue';
 import {Position, COLOR_DROPDOWN_POSITIONS, LEFT, RIGHT} from '../types';
 import clickOutsideDirective from '../../../../directives/click-outside';
-import ColorPicker from '@ohrm/std/core/components/Input/Color/ColorPicker.vue';
+import ColorPicker from '@sthrm/std/core/components/Input/Color/ColorPicker.vue';
 
 export default defineComponent({
   name: 'std-color-input',

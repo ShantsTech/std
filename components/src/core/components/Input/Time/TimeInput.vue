@@ -45,10 +45,10 @@
 
 <script lang="ts">
 import {defineComponent} from 'vue';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
-import Input from '@ohrm/std/core/components/Input/Input.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
+import Input from '@sthrm/std/core/components/Input/Input.vue';
 import clickOutsideDirective from '../../../../directives/click-outside';
-import TimePicker from '@ohrm/std/core/components/Input/Time/TimePicker.vue';
+import TimePicker from '@sthrm/std/core/components/Input/Time/TimePicker.vue';
 import {parseDate, formatDate} from '../../../../utils/date';
 
 export default defineComponent({

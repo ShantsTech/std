@@ -17,8 +17,8 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import Toast from '@ohrm/std/core/components/Toast/Toast';
-import {TYPES} from '@ohrm/std/core/components/Toast/types';
+import Toast from '@sthrm/std/core/components/Toast/Toast';
+import {TYPES} from '@sthrm/std/core/components/Toast/types';
 import ToastAnimation from './ToastAnimation.story.vue';
 
 export default {

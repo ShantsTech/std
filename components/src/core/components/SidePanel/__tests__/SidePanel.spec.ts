@@ -18,9 +18,9 @@
  */
 
 import {mount, shallowMount} from '@vue/test-utils';
-import SidePanel from '@ohrm/std/core/components/SidePanel/SidePanel.vue';
-import MainMenu from '@ohrm/std/core/components/SidePanel/MainMenu.vue';
-import MainMenuItem from '@ohrm/std/core/components/SidePanel/MainMenuItem.vue';
+import SidePanel from '@sthrm/std/core/components/SidePanel/SidePanel.vue';
+import MainMenu from '@sthrm/std/core/components/SidePanel/MainMenu.vue';
+import MainMenuItem from '@sthrm/std/core/components/SidePanel/MainMenuItem.vue';
 
 describe('SidePanel.vue', () => {
   it('renders STD Side Panel', () => {

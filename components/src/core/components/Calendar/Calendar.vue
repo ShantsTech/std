@@ -40,9 +40,9 @@ import {
   toRefs,
   watch,
 } from 'vue';
-import Day from '@ohrm/std/core/components/Calendar/Day.vue';
-import DateVue from '@ohrm/std/core/components/Calendar/Date.vue';
-import CalendarController from '@ohrm/std/core/components/Calendar/CalendarController.vue';
+import Day from '@sthrm/std/core/components/Calendar/Day.vue';
+import DateVue from '@sthrm/std/core/components/Calendar/Date.vue';
+import CalendarController from '@sthrm/std/core/components/Calendar/CalendarController.vue';
 
 export default defineComponent({
   name: 'std-calendar',

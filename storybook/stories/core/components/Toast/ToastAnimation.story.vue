@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import Toast from '@ohrm/std/core/components/Toast/Toast.vue';
+import Toast from '@sthrm/std/core/components/Toast/Toast.vue';
 
 export default {
   components: {

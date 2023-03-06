@@ -18,8 +18,8 @@
  */
 
 import {mount} from '@vue/test-utils';
-import InputField from '@ohrm/std/core/components/InputField/InputField.vue';
-import {FormAPI, formKey} from '@ohrm/std/composables/types';
+import InputField from '@sthrm/std/core/components/InputField/InputField.vue';
+import {FormAPI, formKey} from '@sthrm/std/composables/types';
 
 describe('InputField.vue', () => {
   const mockFormAPI: FormAPI = {

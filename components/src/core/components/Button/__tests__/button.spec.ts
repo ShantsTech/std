@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Button from '@ohrm/std/core/components/Button/Button.vue';
+import Button from '@sthrm/std/core/components/Button/Button.vue';
 import {
   SIZE_LARGE,
   SIZE_MEDIUM,

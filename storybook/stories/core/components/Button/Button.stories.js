@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import Button from '@ohrm/std/core/components/Button/Button';
+import Button from '@sthrm/std/core/components/Button/Button';
 import {
   SIZES,
   TYPES,
@@ -33,7 +33,7 @@ import {
   TYPE_LABEL_DANGER,
   TYPE_TEXT,
   TYPE_TOOL,
-} from '@ohrm/std/core/components/Button/types';
+} from '@sthrm/std/core/components/Button/types';
 
 export default {
   title: 'Example/Button',

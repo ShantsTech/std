@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Toast from '@ohrm/std/core/components/Toast/Toast.vue';
+import Toast from '@sthrm/std/core/components/Toast/Toast.vue';
 
 describe('Toast > Toast.vue', () => {
   it('should renders STD Toast', () => {

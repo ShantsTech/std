@@ -18,8 +18,8 @@
  */
 
 import {mount} from '@vue/test-utils';
-import {FormAPI, formKey} from '@ohrm/std/composables/types';
-import BuzzPostInput from '@ohrm/std/core/components/Buzz/BuzzPostInput.vue';
+import {FormAPI, formKey} from '@sthrm/std/composables/types';
+import BuzzPostInput from '@sthrm/std/core/components/Buzz/BuzzPostInput.vue';
 
 describe('BuzzPostInput.vue', () => {
   const mockFormAPI: FormAPI = {

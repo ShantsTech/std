@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import ReportTable from '@ohrm/std/core/components/ReportTable/ReportTable';
+import ReportTable from '@sthrm/std/core/components/ReportTable/ReportTable';
 import ReportTableStory from './ReportTable.story.vue';
 import ReportCustomStory from './ReportCustom.story.vue';
 import PIMReport from './PIMReport.story.vue';

@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import Label from '@ohrm/std/core/components/Label/Label';
+import Label from '@sthrm/std/core/components/Label/Label';
 
 export default {
   title: 'Example/Label',

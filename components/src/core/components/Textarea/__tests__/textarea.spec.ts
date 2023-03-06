@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Textarea from '@ohrm/std/core/components/Textarea/Textarea.vue';
+import Textarea from '@sthrm/std/core/components/Textarea/Textarea.vue';
 
 describe('Textarea.vue', () => {
   it('renders STD Textarea', () => {

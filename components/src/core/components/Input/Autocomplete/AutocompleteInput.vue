@@ -86,10 +86,10 @@ import debounce from '../../../../utils/debounce';
 import eventsMixin from '../Select/events-mixin';
 import navigationMixin from '../Select/navigation-mixin';
 import {TOP, BOTTOM, Option, Position, DROPDOWN_POSITIONS} from '../types';
-import AutocompleteTextInput from '@ohrm/std/core/components/Input/Autocomplete/AutocompleteTextInput.vue';
-import AutocompleteDropdown from '@ohrm/std/core/components/Input/Autocomplete/AutocompleteDropdown.vue';
-import AutocompleteOption from '@ohrm/std/core/components/Input/Autocomplete/AutocompleteOption.vue';
-import AutocompleteChips from '@ohrm/std/core/components/Input/Autocomplete/AutocompleteChips.vue';
+import AutocompleteTextInput from '@sthrm/std/core/components/Input/Autocomplete/AutocompleteTextInput.vue';
+import AutocompleteDropdown from '@sthrm/std/core/components/Input/Autocomplete/AutocompleteDropdown.vue';
+import AutocompleteOption from '@sthrm/std/core/components/Input/Autocomplete/AutocompleteOption.vue';
+import AutocompleteChips from '@sthrm/std/core/components/Input/Autocomplete/AutocompleteChips.vue';
 import usei18n from '../../../../composables/usei18n';
 
 export default defineComponent({

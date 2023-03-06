@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import PasswordInput from '@ohrm/std/core/components/Input/PasswordInput.vue';
+import PasswordInput from '@sthrm/std/core/components/Input/PasswordInput.vue';
 
 describe('PasswordInput.vue', () => {
   it('renders STD Input', () => {
