@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageItem.vue renders STD PageItem 1`] = `<li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">1</button></li>`;
+
+exports[`PageItem.vue renders STD PageItem next 1`] = `<li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-right"></i></button></li>`;
+
+exports[`PageItem.vue renders STD PageItem previous 1`] = `<li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-left"></i></button></li>`;
+
+exports[`PageItem.vue renders STD PageItem selected 1`] = `<li><button type="button" class="std-pagination-page-item std-pagination-page-item--page std-pagination-page-item--page-selected">2</button></li>`;

@@ -1,0 +1,83 @@
+// This file is part of Shants Tech LLC
+//
+// Copyright (C) 2020 Shants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+@import '../../../styles';
+@import 'variables';
+
+.std-progressbar {
+  display: flex;
+  align-items: center;
+  &-text {
+    white-space: nowrap;
+    margin-left: $std-progressbar-text-margin;
+    font-size: $std-progressbar-font-size;
+    font-weight: $std-progressbar-font-weight;
+  }
+  &-wrapper {
+    width: 100%;
+    overflow: hidden;
+    height: $std-progressbar-height;
+    border-radius: $std-progressbar-border-radius;
+    background-color: $std-progressbar-background-color;
+  }
+  &-ticker {
+    height: $std-progressbar-height;
+    border-radius: $std-progressbar-border-radius;
+    background-color: $std-progressbar-color-default;
+
+    &--main {
+      background-color: $std-progressbar-color-main;
+    }
+
+    &--secondary {
+      background-color: $std-progressbar-color-secondary;
+    }
+
+    &--success {
+      background-color: $std-progressbar-color-success;
+    }
+
+    &--warn {
+      background-color: $std-progressbar-color-warn;
+    }
+
+    &--error {
+      background-color: $std-progressbar-color-error;
+    }
+
+    &--info {
+      background-color: $std-progressbar-color-info;
+    }
+
+    &.--striped {
+      background-image: $std-progressbar-bg-striped;
+      background-size: $std-progressbar-bg-size;
+    }
+    &.--animated {
+      animation: $std-progressbar-animation;
+    }
+  }
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: $std-progressbar-bg-size;
+  }
+}

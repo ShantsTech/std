@@ -1,0 +1,84 @@
+// This file is part of Shants Tech LLC
+//
+// Copyright (C) 2020 Shants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+@import '../../../styles';
+@import 'variables';
+
+.std-buzz-post {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+  background-color: $std-background-pastel-white-color;
+
+  &-input {
+    all: unset;
+    width: 98%;
+    resize: none;
+    text-align: justify;
+    white-space: pre-wrap;
+    word-break: break-word;
+    box-sizing: border-box;
+    padding: $std-buzz-post-input-margin;
+    margin: $std-buzz-post-input-margin;
+    font-family: $std-input-control-font-family;
+    color: $std-input-control-font-color;
+    font-size: $std-input-control-font-size;
+    font-weight: $std-input-control-font-weight;
+    line-height: $std-input-control-line-height;
+
+    @include std-scrollbar(
+      $std-buzz-post-input-scrollbar-thumb-color,
+      $std-buzz-post-input-scrollbar-track-color
+    );
+  }
+
+  &-slot {
+    align-self: flex-end;
+    margin: $std-buzz-post-input-margin;
+  }
+
+  &--active {
+    border: $std-buzz-post-input-border--active;
+  }
+
+  &--focus {
+    border: $std-buzz-post-input-border--focus;
+    box-shadow: $std-buzz-post-input-box-shadow--focus;
+  }
+
+  &--error {
+    border: $std-buzz-post-input-border--error;
+    box-shadow: $std-buzz-post-input-box-shadow--error;
+  }
+
+  &--composing {
+    flex-direction: column;
+  }
+
+  &--disabled {
+    background-color: $std-buzz-post-input-background-color--disabled;
+  }
+}
+
+.std-input-field-error-message {
+  color: $std-buzz-post-message-error-color;
+  font-size: $std-buzz-post-message-font-size;
+  margin-top: $std-buzz-post-message-margin-top;
+  font-weight: $std-buzz-post-message-font-weight;
+}

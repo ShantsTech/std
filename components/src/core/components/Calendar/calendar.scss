@@ -1,0 +1,166 @@
+// This file is part of Shants Tech LLC
+//
+// Copyright (C) 2020 Shants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+@import '../../../styles';
+@import 'variables';
+
+.std-calendar {
+  &-wrapper {
+    position: relative;
+    padding: $std-calendar-wrapper-padding;
+    background-color: $std-calendar-wrapper-background-color;
+    border: $std-calendar-wrapper-boder;
+    border-radius: $std-calendar-wrapper-boder-radius;
+    max-width: $std-calendar-wrapper-width;
+  }
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  &-week-grid,
+  &-dates-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  &-day {
+    position: relative;
+    color: $std-calendar-day-font-color;
+    font-family: $std-calendar-day-font-family;
+    font-size: $std-calendar-day-font-size;
+    font-weight: $std-calendar-day-font-weight;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-date-wrapper {
+    color: $std-calendar-date-font-color;
+    font-weight: $std-calendar-date-font-weight;
+    &.--working-day-half {
+      background-color: $std-calendar-date-half-background-color;
+      color: $std-calendar-date-half-font-color;
+      font-weight: $std-calendar-date-half-font-weight;
+    }
+    &.--non-working-day {
+      background-color: $std-calendar-date-weekend-background-color;
+      color: $std-calendar-date-weekend-font-color;
+      font-weight: $std-calendar-date-weekend-font-weight;
+    }
+    @for $i from 1 through 7 {
+      &.--offset-#{$i} {
+        grid-column: #{$i};
+      }
+    }
+  }
+  &-date {
+    position: relative;
+    color: inherit;
+    font-weight: inherit;
+    font-family: $std-calendar-date-font-family;
+    font-size: $std-calendar-date-font-size;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: $std-calendar-date-border-radius;
+    cursor: pointer;
+    @include aspect-ratio();
+    &.--today {
+      background-color: $std-calendar-date-today-background-color;
+      color: $std-calendar-date-today-font-color;
+      font-weight: $std-calendar-date-today-font-weight;
+    }
+    &.--holiday-half {
+      background-color: $std-calendar-date-holiday-half-background-color;
+      color: $std-calendar-date-holiday-half-font-color;
+      font-weight: $std-calendar-date-holiday-half-font-weight;
+    }
+    &.--holiday-full {
+      background-color: $std-calendar-date-holiday-full-background-color;
+      color: $std-calendar-date-holiday-full-font-color;
+      font-weight: $std-calendar-date-holiday-full-font-weight;
+    }
+    &.--highlight-half {
+      background-color: $std-calendar-date-highlight-half-background-color;
+      color: $std-calendar-date-highlight-half-font-color;
+      font-weight: $std-calendar-date-highlight-half-font-weight;
+    }
+    &.--highlight-full {
+      background-color: $std-calendar-date-highlight-full-background-color;
+      color: $std-calendar-date-highlight-full-font-color;
+      font-weight: $std-calendar-date-highlight-full-font-weight;
+    }
+    &:hover {
+      background-color: $std-calendar-date-hover-background-color;
+      color: $std-calendar-date-hover-font-color;
+      font-weight: $std-calendar-date-hover-font-weight;
+    }
+    &.--selected {
+      background-color: $std-calendar-date-selected-background-color;
+      color: $std-calendar-date-selected-font-color;
+      font-weight: $std-calendar-date-selected-font-weight;
+    }
+  }
+
+  &-dates-grid .std-calendar-date-wrapper:nth-child(-n + 7) {
+    border-top-left-radius: $std-calendar-date-border-radius;
+    border-top-right-radius: $std-calendar-date-border-radius;
+  }
+  &-dates-grid .std-calendar-date-wrapper:nth-last-child(-n + 7) {
+    border-bottom-left-radius: $std-calendar-date-border-radius;
+    border-bottom-right-radius: $std-calendar-date-border-radius;
+  }
+
+  &-selector {
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 65%;
+
+    &-month,
+    &-year {
+      cursor: pointer;
+      width: 100%;
+      font-size: $std-calendar-controller-font-size;
+      background-color: $std-calendar-controller-background-color;
+      padding: $std-calendar-controller-padding;
+      & .std-icon {
+        font-size: $std-calendar-controller-icon-size;
+        margin-left: auto;
+      }
+      &-selected {
+        display: flex;
+        align-items: center;
+      }
+    }
+    &-month {
+      flex-basis: 70%;
+      padding-right: calc(#{$std-calendar-controller-padding}/ 2);
+      border-top-left-radius: 2.375rem;
+      border-bottom-left-radius: 2.375rem;
+    }
+
+    &-year {
+      flex-basis: 30%;
+      padding-left: calc(#{$std-calendar-controller-padding}/ 2);
+      border-top-right-radius: 2.375rem;
+      border-bottom-right-radius: 2.375rem;
+    }
+  }
+}

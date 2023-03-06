@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button.vue renders STD button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--main">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD button with custom color 1`] = `
+<button type="button" class="std-button std-button--medium std-button--main" style="background-color: palegreen;">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD ghost button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--ghost">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD ghost-danger button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--ghost-danger">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD ghost-info button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--ghost-info">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD ghost-success button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--ghost-success">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD ghost-warn button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--ghost-warn">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD iconName button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--main"><i class="std-icon bi-arrow-left std-button-icon"></i> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD iconRightName button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--main">
+  <!--v-if--> Button <i class="std-icon bi-arrow-right std-button-icon"></i>
+</button>
+`;
+
+exports[`Button.vue should renders STD label button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--label">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD label-danger button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--label-danger">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD label-info button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--label-info">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD label-success button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--label-success">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD label-warn button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--label-warn">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD large button 1`] = `
+<button type="button" class="std-button std-button--large std-button--main">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD main button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--main">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD medium button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--main">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD secondary button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--secondary">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD small button 1`] = `
+<button type="button" class="std-button std-button--small std-button--main">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD solid danger button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--danger">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD solid info button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--info">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD solid success button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--success">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD solid warn button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--warn">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD text button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--text">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;
+
+exports[`Button.vue should renders STD tool button 1`] = `
+<button type="button" class="std-button std-button--medium std-button--tool">
+  <!--v-if--> Button
+  <!--v-if-->
+</button>
+`;

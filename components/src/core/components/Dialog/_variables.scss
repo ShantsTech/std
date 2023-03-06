@@ -1,0 +1,31 @@
+// This file is part of Shants Tech LLC
+//
+// Copyright (C) 2020 Shants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+$std-overlay-background-color: rgba($std-black-color, 0.5) !default;
+
+$std-dialog-close-button-font-color: $std-white-color !default;
+$std-dialog-close-button-bg-color: #b8bdc7 !default;
+$std-dialog-close-button-bg-color-hover: $std-interface-gray-darken-1-color !default;
+$std-dialog-close-button-border-radius: 2.5rem !default;
+$std-dialog-close-button-font-size: 1rem !default;
+$std-dialog-close-button-font-weight: 600 !default;
+$std-dialog-close-button-size: 1.5625rem !default;
+$std-dialog-close-button-top: -0.5rem !default;
+$std-dialog-close-button-right: -0.5rem !default;
+
+$std-dialog-sheet-box-shadow: 0 25px 35px 0 rgba($std-black-color, 0.18) !default;
+$std-dialog-sheet-padding: 1.2rem !default;

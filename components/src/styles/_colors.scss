@@ -1,0 +1,68 @@
+// This file is part of Shants Tech LLC
+//
+// Copyright (C) 2020 Shants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+/* STD - Primary Colors */
+$std-primary-one-color: #ff7b1d !default;
+$std-primary-two-color: #17a954 !default;
+
+/* STD - Secondary Colors */
+$std-secondary-one-color: #ffaa00 !default;
+$std-secondary-two-color: #f4eec7 !default;
+$std-secondary-three-color: #ccda46 !default;
+$std-secondary-four-color: #76bc21 !default;
+
+/* STD - Interface Colors */
+$std-interface-gray-darken-2-color: #38455d !default;
+$std-interface-gray-darken-1-color: #64728c !default;
+$std-interface-gray-color: #929baa !default;
+$std-interface-gray-lighten-1-color: #cfd3de !default;
+$std-interface-gray-lighten-2-color: #e8eaef !default;
+
+/* STD - Background & Overly Colors */
+$std-background-light-gray-color: #f1f2f5 !default;
+$std-background-pastel-white-color: #f6f5fb !default;
+$std-background-white-shadow-color: #fafafc !default;
+$std-background-white-color: #fafafa !default;
+
+/* STD - Feedback Colors */
+$std-feedback-info-color: #1e6ceb !default;
+$std-feedback-danger-color: #eb0910 !default;
+$std-feedback-warn-color: #ffa62f !default;
+$std-feedback-success-color: #34bc40 !default;
+
+$std-white-color: #ffffff !default;
+$std-black-color: #000000 !default;
+
+/* STD - Gradient Colors */
+$std-primary-gradient-start-color: #ff8226 !default;
+$std-primary-gradient-end-color: #f35c17 !default;
+$std-primary-gradient: linear-gradient(
+  90deg,
+  $std-primary-gradient-start-color 0%,
+  $std-primary-gradient-end-color 90%
+) !default;
+$std-primary-secondary-start-color: #ff5e00 !default;
+$std-primary-secondary-end-color: #ffa46b !default;
+$std-secondary-gradient: linear-gradient(
+  90deg,
+  $std-primary-secondary-start-color 0%,
+  $std-primary-secondary-end-color 90%
+) !default;
+
+/* STD Font Color */
+$std-primary-font-color: $std-white-color !default;
+$std-secondary-font-color: $std-white-color !default;

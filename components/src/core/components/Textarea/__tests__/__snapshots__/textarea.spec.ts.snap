@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Textarea.vue renders STD Textarea 1`] = `<textarea class="std-textarea std-textarea--active std-textarea--resize-vertical" label="Textarea"></textarea>`;
+
+exports[`Textarea.vue should renders STD Textarea with custom color 1`] = `<textarea class="std-textarea std-textarea--active std-textarea--resize-vertical" style="background-color: aliceblue;" label="Textarea"></textarea>`;
+
+exports[`Textarea.vue should renders STD Textarea with error 1`] = `<textarea class="std-textarea std-textarea--active std-textarea--error std-textarea--resize-vertical" label="Textarea"></textarea>`;

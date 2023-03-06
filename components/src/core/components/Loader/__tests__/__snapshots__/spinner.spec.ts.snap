@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader > Spinner.vue renders STD Spinner 1`] = `
+<div class="std-loading-spinner-container">
+  <div class="std-loading-spinner"></div>
+</div>
+`;
+
+exports[`Loader > Spinner.vue should renders STD Spinner with container 1`] = `
+<div class="std-loading-spinner-container--block">
+  <div class="std-loading-spinner"></div>
+</div>
+`;

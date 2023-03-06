@@ -1,0 +1,42 @@
+// This file is part of Shants Tech LLC
+//
+// Copyright (C) 2020 Shants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+@import '../../../styles';
+@import 'variables';
+
+.std-toast-icon {
+  color: inherit;
+  font-size: $std-toast-icon-font-size;
+}
+
+.std-toast-icon-container {
+  @include std-flex-center;
+}
+
+.std-toast-icon-wrap {
+  background-color: rgba($std-toast-icon-color, 0.1);
+  padding: $std-toast-icon-wrap-padding;
+  border-radius: 100%;
+  box-sizing: border-box;
+  height: $std-toast-icon-wrap-size;
+  width: $std-toast-icon-wrap-size;
+  @include std-flex-center;
+
+  &--default {
+    background-color: rgba($std-toast-icon-color-default, 0.1);
+  }
+}

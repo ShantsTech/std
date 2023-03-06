@@ -1,0 +1,62 @@
+// This file is part of Shants Tech LLC
+//
+// Copyright (C) 2020 Shants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+@import '../../../styles';
+@import 'variables';
+
+.std-tab {
+  touch-action: pan-y !important;
+  &-bar {
+    padding: $std-tab-bar-padding;
+  }
+  &-segment {
+    cursor: pointer;
+    text-decoration: none;
+    margin: $std-tab-bar-segment-margin;
+    color: $std-tab-bar-segment-font-color;
+    font-size: $std-tab-bar-segment-font-size;
+    font-weight: $std-tab-bar-segment-font-weight;
+    font-family: $std-tab-bar-segment-font-family;
+    &--active {
+      color: $std-tab-bar-segment-font-color-active;
+    }
+    &--disabled {
+      cursor: unset;
+      color: $std-tab-bar-segment-font-color-disabled;
+    }
+  }
+}
+
+.transition-slide-right-enter-active,
+.transition-slide-right-leave-active {
+  transition: opacity $std-tab-animation-time ease-in-out,
+    transform $std-tab-animation-time ease-in-out;
+}
+
+.transition-slide-right-leave-active {
+  position: absolute;
+}
+
+.transition-slide-right-enter-from {
+  opacity: 0;
+  transform: translateX($std-tab-animation-x-offset * -1);
+}
+
+.transition-slide-right-leave-to {
+  opacity: 0;
+  transform: translateX($std-tab-animation-x-offset);
+}

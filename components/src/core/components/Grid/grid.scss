@@ -1,0 +1,149 @@
+// This file is part of Shants Tech LLC
+//
+// Copyright (C) 2020 Shants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+@import '../../../styles';
+@import 'variables';
+
+.std-grid-8 {
+  display: grid;
+  margin: $std-grid-eight-margin;
+  grid-gap: $std-grid-eight-gap;
+
+  @include std-respond-to('md') {
+    grid-gap: $std-grid-eight-md-gap;
+    margin: $std-grid-eight-md-margin;
+    grid-template-columns: $std-grid-eight-md-template-columns;
+  }
+
+  @include std-respond-to('lg') {
+    grid-gap: $std-grid-eight-lg-gap;
+    grid-template-columns: $std-grid-eight-lg-template-columns;
+  }
+}
+
+.std-grid-7 {
+  display: grid;
+  margin: $std-grid-seven-margin;
+  grid-gap: $std-grid-seven-gap;
+
+  @include std-respond-to('md') {
+    grid-gap: $std-grid-seven-md-gap;
+    margin: $std-grid-seven-md-margin;
+    grid-template-columns: $std-grid-seven-md-template-columns;
+  }
+
+  @include std-respond-to('lg') {
+    grid-gap: $std-grid-seven-lg-gap;
+    grid-template-columns: $std-grid-seven-lg-template-columns;
+  }
+}
+
+.std-grid-6 {
+  display: grid;
+  margin: $std-grid-six-margin;
+  grid-gap: $std-grid-six-gap;
+
+  @include std-respond-to('md') {
+    grid-gap: $std-grid-six-md-gap;
+    margin: $std-grid-six-md-margin;
+    grid-template-columns: $std-grid-six-md-template-columns;
+  }
+
+  @include std-respond-to('lg') {
+    grid-gap: $std-grid-six-lg-gap;
+    grid-template-columns: $std-grid-six-lg-template-columns;
+  }
+}
+
+.std-grid-5 {
+  display: grid;
+  margin: $std-grid-five-margin;
+  grid-gap: $std-grid-five-gap;
+
+  @include std-respond-to('md') {
+    grid-gap: $std-grid-five-md-gap;
+    margin: $std-grid-five-md-margin;
+    grid-template-columns: $std-grid-five-md-template-columns;
+  }
+
+  @include std-respond-to('lg') {
+    grid-gap: $std-grid-five-lg-gap;
+    grid-template-columns: $std-grid-five-lg-template-columns;
+  }
+}
+
+.std-grid-4 {
+  display: grid;
+  margin: $std-grid-four-margin;
+  grid-gap: $std-grid-four-gap;
+
+  @include std-respond-to('md') {
+    grid-gap: $std-grid-four-md-gap;
+    margin: $std-grid-four-md-margin;
+    grid-template-columns: $std-grid-four-md-template-columns;
+  }
+
+  @include std-respond-to('lg') {
+    grid-gap: $std-grid-four-lg-gap;
+    grid-template-columns: $std-grid-four-lg-template-columns;
+  }
+}
+
+.std-grid-3 {
+  display: grid;
+  margin: $std-grid-three-margin;
+  grid-gap: $std-grid-three-gap;
+
+  @include std-respond-to('md') {
+    grid-gap: $std-grid-three-md-gap;
+    margin: $std-grid-three-md-margin;
+    grid-template-columns: $std-grid-three-md-template-columns;
+  }
+
+  @include std-respond-to('lg') {
+    grid-gap: $std-grid-three-lg-gap;
+    grid-template-columns: $std-grid-three-lg-template-columns;
+  }
+}
+
+.std-grid-2 {
+  display: grid;
+  margin: $std-grid-two-margin;
+  grid-gap: $std-grid-two-gap;
+
+  @include std-respond-to('md') {
+    grid-gap: $std-grid-two-md-gap;
+    margin: $std-grid-two-md-margin;
+    grid-template-columns: $std-grid-two-md-template-columns;
+  }
+
+  @include std-respond-to('lg') {
+    grid-gap: $std-grid-two-lg-gap;
+    grid-template-columns: $std-grid-two-lg-template-columns;
+  }
+}
+
+.std-grid-1 {
+  display: grid;
+  margin: $std-grid-one-margin;
+  grid-gap: $std-grid-one-gap;
+  grid-template-columns: $std-grid-one-template-columns;
+
+  @include std-respond-to('md') {
+    margin: $std-grid-one-md-margin;
+  }
+}

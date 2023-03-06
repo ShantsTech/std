@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardTable > TableHeaderCell.vue renders STD CardTable > TableHeaderCell 1`] = `
+<div class="std-table-header-cell" role="columnheader">
+  <!--v-if-->
+</div>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text.vue renders STD Text 1`] = `<p class="std-text std-text--p">Nunito is a well balanced sans serif typeface</p>`;
+
+exports[`Text.vue should renders STD Text with card-title type 1`] = `<p class="std-text std-text--p std-text--card-title">Nunito is a well balanced sans serif typeface</p>`;
+
+exports[`Text.vue should renders STD Text with custom color 1`] = `<h1 class="std-text std-text--h1" style="background-color: brown;">Nunito is a well balanced sans serif typeface</h1>`;
+
+exports[`Text.vue should renders STD Text with h1 tag 1`] = `<h1 class="std-text std-text--h1">Nunito is a well balanced sans serif typeface</h1>`;
+
+exports[`Text.vue should renders STD Text with h2 tag 1`] = `<h2 class="std-text std-text--h2">Nunito is a well balanced sans serif typeface</h2>`;
+
+exports[`Text.vue should renders STD Text with h3 tag 1`] = `<h3 class="std-text std-text--h3">Nunito is a well balanced sans serif typeface</h3>`;
+
+exports[`Text.vue should renders STD Text with h4 tag 1`] = `<h4 class="std-text std-text--h4">Nunito is a well balanced sans serif typeface</h4>`;
+
+exports[`Text.vue should renders STD Text with h5 tag 1`] = `<h5 class="std-text std-text--h5">Nunito is a well balanced sans serif typeface</h5>`;
+
+exports[`Text.vue should renders STD Text with h6 tag 1`] = `<h6 class="std-text std-text--h6">Nunito is a well balanced sans serif typeface</h6>`;
+
+exports[`Text.vue should renders STD Text with subtitle-1 type 1`] = `<p class="std-text std-text--p std-text--subtitle-1">Nunito is a well balanced sans serif typeface</p>`;
+
+exports[`Text.vue should renders STD Text with subtitle-2 type 1`] = `<p class="std-text std-text--p std-text--subtitle-2">Nunito is a well balanced sans serif typeface</p>`;
+
+exports[`Text.vue should renders STD Text with toast-message type 1`] = `<p class="std-text std-text--p std-text--toast-message">Nunito is a well balanced sans serif typeface</p>`;
+
+exports[`Text.vue should renders STD Text with toast-title type 1`] = `<p class="std-text std-text--p std-text--toast-title">Nunito is a well balanced sans serif typeface</p>`;

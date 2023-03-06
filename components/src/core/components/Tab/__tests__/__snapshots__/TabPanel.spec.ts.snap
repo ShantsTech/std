@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabPanel.vue renders STD Tab Panel 1`] = `<div id="test" class="std-tab-panel"></div>`;
+
+exports[`TabPanel.vue should render STD Tab Panel with content 1`] = `
+<div id="test" class="std-tab-panel">
+  <div>Main Content</div>
+</div>
+`;

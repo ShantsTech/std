@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination.vue renders STD Pagination 1`] = `
+<nav role="navigation" aria-label="Pagination Navigation">
+  <ul class="std-pagination__ul">
+    <!--v-if-->
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page std-pagination-page-item--page-selected">1</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">2</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">3</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">4</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">5</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-right"></i></button></li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination.vue should renders STD Pagination with |1|, 2, 3, 4, 5 1`] = `
+<nav role="navigation" aria-label="Pagination Navigation">
+  <ul class="std-pagination__ul">
+    <!--v-if-->
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page std-pagination-page-item--page-selected">1</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">2</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">3</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">4</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">5</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-right"></i></button></li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination.vue should renders STD Pagination with |17|, 18, 19, 20, 21 1`] = `
+<nav role="navigation" aria-label="Pagination Navigation">
+  <ul class="std-pagination__ul">
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-left"></i></button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">15</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">16</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page std-pagination-page-item--page-selected">17</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">18</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">19</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-right"></i></button></li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination.vue should renders STD Pagination with 1, |2|, 3, 4, 5 1`] = `
+<nav role="navigation" aria-label="Pagination Navigation">
+  <ul class="std-pagination__ul">
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-left"></i></button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">1</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page std-pagination-page-item--page-selected">2</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">3</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">4</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">5</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-right"></i></button></li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination.vue should renders STD Pagination with 1, 2, |3|, 4, 5 1`] = `
+<nav role="navigation" aria-label="Pagination Navigation">
+  <ul class="std-pagination__ul">
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-left"></i></button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">1</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">2</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page std-pagination-page-item--page-selected">3</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">4</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">5</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-right"></i></button></li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination.vue should renders STD Pagination with 1, 2, 3, |4|, 5, 6 1`] = `
+<nav role="navigation" aria-label="Pagination Navigation">
+  <ul class="std-pagination__ul">
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-left"></i></button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">1</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">2</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">3</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page std-pagination-page-item--page-selected">4</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">5</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">6</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-right"></i></button></li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination.vue should renders STD Pagination with 17, |18|, 19, 20, 21 1`] = `
+<nav role="navigation" aria-label="Pagination Navigation">
+  <ul class="std-pagination__ul">
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-left"></i></button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">16</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">17</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page std-pagination-page-item--page-selected">18</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">19</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">20</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-right"></i></button></li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination.vue should renders STD Pagination with 17, 18, |19|, 20, 21 1`] = `
+<nav role="navigation" aria-label="Pagination Navigation">
+  <ul class="std-pagination__ul">
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-left"></i></button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">17</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">18</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page std-pagination-page-item--page-selected">19</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">20</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">21</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-right"></i></button></li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination.vue should renders STD Pagination with 17, 18, 19, |20|, 21 1`] = `
+<nav role="navigation" aria-label="Pagination Navigation">
+  <ul class="std-pagination__ul">
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-left"></i></button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">17</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">18</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">19</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page std-pagination-page-item--page-selected">20</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">21</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-right"></i></button></li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination.vue should renders STD Pagination with 17, 18, 19, 20, |21| 1`] = `
+<nav role="navigation" aria-label="Pagination Navigation">
+  <ul class="std-pagination__ul">
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-left"></i></button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">17</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">18</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">19</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">20</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page std-pagination-page-item--page-selected">21</button></li>
+    <!--v-if-->
+  </ul>
+</nav>
+`;
+
+exports[`Pagination.vue should renders STD Pagination with current 1`] = `
+<nav role="navigation" aria-label="Pagination Navigation">
+  <ul class="std-pagination__ul">
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-left"></i></button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">17</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">18</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">19</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">20</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page std-pagination-page-item--page-selected">21</button></li>
+    <!--v-if-->
+  </ul>
+</nav>
+`;
+
+exports[`Pagination.vue should renders STD Pagination with length < max 1`] = `
+<nav role="navigation" aria-label="Pagination Navigation">
+  <ul class="std-pagination__ul">
+    <!--v-if-->
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page std-pagination-page-item--page-selected">1</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">2</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">3</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-right"></i></button></li>
+  </ul>
+</nav>
+`;
+
+exports[`Pagination.vue should renders STD Pagination with length > max 1`] = `
+<nav role="navigation" aria-label="Pagination Navigation">
+  <ul class="std-pagination__ul">
+    <!--v-if-->
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page std-pagination-page-item--page-selected">1</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">2</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">3</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">4</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">5</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--page">6</button></li>
+    <li><button type="button" class="std-pagination-page-item std-pagination-page-item--previous-next"><i class="std-icon bi-chevron-right"></i></button></li>
+  </ul>
+</nav>
+`;
