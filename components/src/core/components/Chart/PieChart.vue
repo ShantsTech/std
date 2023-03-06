@@ -30,7 +30,7 @@ import {
 import {Chart} from './chart';
 import {nanoid} from 'nanoid';
 import {DataPoint} from './types';
-import LegendVue from '@ohrm/std/core/components/Chart/Legend.vue';
+import LegendVue from '@sthrm/std/core/components/Chart/Legend.vue';
 import {h, computed, PropType, shallowRef, defineComponent, watch} from 'vue';
 
 export default defineComponent({

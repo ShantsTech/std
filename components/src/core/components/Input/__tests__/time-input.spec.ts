@@ -18,9 +18,9 @@
  */
 
 import {mount} from '@vue/test-utils';
-import TimeInput from '@ohrm/std/core/components/Input/Time/TimeInput.vue';
-import TimePicker from '@ohrm/std/core/components/Input/Time/TimePicker.vue';
-import Input from '@ohrm/std/core/components/Input/Input.vue';
+import TimeInput from '@sthrm/std/core/components/Input/Time/TimeInput.vue';
+import TimePicker from '@sthrm/std/core/components/Input/Time/TimePicker.vue';
+import Input from '@sthrm/std/core/components/Input/Input.vue';
 
 describe('TimeInput.vue', () => {
   it('renders STD Time Input', () => {

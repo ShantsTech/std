@@ -47,7 +47,7 @@
 <script lang="ts">
 import {defineComponent} from 'vue';
 import {Position, LABEL_POSITIONS, RIGHT} from './types';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
 
 export interface State {
   focused: boolean;

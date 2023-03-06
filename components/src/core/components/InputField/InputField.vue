@@ -44,21 +44,21 @@
 
 <script lang="ts">
 import {toRef, PropType, nextTick, defineComponent} from 'vue';
-import InputGroup from '@ohrm/std/core/components/InputField/InputGroup.vue';
-import Input from '@ohrm/std/core/components/Input/Input.vue';
-import FileInput from '@ohrm/std/core/components/Input/FileInput.vue';
-import Textarea from '@ohrm/std/core/components/Textarea/Textarea.vue';
-import DropdownInput from '@ohrm/std/core/components/Input/DropdownInput.vue';
-import PasswordInput from '@ohrm/std/core/components/Input/PasswordInput.vue';
-import CheckboxInput from '@ohrm/std/core/components/Input/CheckboxInput.vue';
-import SwitchInput from '@ohrm/std/core/components/Input/SwitchInput.vue';
-import RadioInput from '@ohrm/std/core/components/Input/RadioInput.vue';
-import DateInput from '@ohrm/std/core/components/Input/DateInput.vue';
-import AutocompleteInput from '@ohrm/std/core/components/Input/Autocomplete/AutocompleteInput.vue';
-import SelectInput from '@ohrm/std/core/components/Input/Select/SelectInput.vue';
-import MultiSelectInput from '@ohrm/std/core/components/Input/MultiSelect/MultiSelectInput.vue';
-import TimeInput from '@ohrm/std/core/components/Input/Time/TimeInput.vue';
-import ColorInput from '@ohrm/std/core/components/Input/Color/ColorInput.vue';
+import InputGroup from '@sthrm/std/core/components/InputField/InputGroup.vue';
+import Input from '@sthrm/std/core/components/Input/Input.vue';
+import FileInput from '@sthrm/std/core/components/Input/FileInput.vue';
+import Textarea from '@sthrm/std/core/components/Textarea/Textarea.vue';
+import DropdownInput from '@sthrm/std/core/components/Input/DropdownInput.vue';
+import PasswordInput from '@sthrm/std/core/components/Input/PasswordInput.vue';
+import CheckboxInput from '@sthrm/std/core/components/Input/CheckboxInput.vue';
+import SwitchInput from '@sthrm/std/core/components/Input/SwitchInput.vue';
+import RadioInput from '@sthrm/std/core/components/Input/RadioInput.vue';
+import DateInput from '@sthrm/std/core/components/Input/DateInput.vue';
+import AutocompleteInput from '@sthrm/std/core/components/Input/Autocomplete/AutocompleteInput.vue';
+import SelectInput from '@sthrm/std/core/components/Input/Select/SelectInput.vue';
+import MultiSelectInput from '@sthrm/std/core/components/Input/MultiSelect/MultiSelectInput.vue';
+import TimeInput from '@sthrm/std/core/components/Input/Time/TimeInput.vue';
+import ColorInput from '@sthrm/std/core/components/Input/Color/ColorInput.vue';
 import {Types, Components, TYPES, TYPE_INPUT, TYPE_MAP} from './types';
 import useField from '../../../composables/useField';
 

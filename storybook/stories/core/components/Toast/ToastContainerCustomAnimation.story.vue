@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import ToastContainer from '@ohrm/std/core/components/Toast/Container';
+import ToastContainer from '@sthrm/std/core/components/Toast/Container';
 
 export default {
   components: {

@@ -45,9 +45,9 @@
 <script lang="ts">
 import {defineComponent} from 'vue';
 import {toastMixin} from './toast-mixin';
-import Text from '@ohrm/std/core/components/Text/Text.vue';
-import ToastCloseButton from '@ohrm/std/core/components/Toast/CloseButton.vue';
-import ToastIcon from '@ohrm/std/core/components/Toast/Icon.vue';
+import Text from '@sthrm/std/core/components/Text/Text.vue';
+import ToastCloseButton from '@sthrm/std/core/components/Toast/CloseButton.vue';
+import ToastIcon from '@sthrm/std/core/components/Toast/Icon.vue';
 
 export default defineComponent({
   name: 'std-toast',

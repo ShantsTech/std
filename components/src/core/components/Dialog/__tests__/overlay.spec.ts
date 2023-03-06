@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Overlay from '@ohrm/std/core/components/Dialog/Overlay.vue';
+import Overlay from '@sthrm/std/core/components/Dialog/Overlay.vue';
 
 describe('Dialog > Overlay.vue', () => {
   it('should renders STD Dialog > Overlay', () => {

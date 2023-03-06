@@ -19,9 +19,9 @@
 
 import {h, ref} from 'vue';
 import {ru} from 'date-fns/locale';
-import DateInput from '@ohrm/std/core/components/Input/DateInput';
-import buildLocale from '@ohrm/std/utils/locale.ts';
-import {convertPHPDateFormat} from '@ohrm/std/utils/date.ts';
+import DateInput from '@sthrm/std/core/components/Input/DateInput';
+import buildLocale from '@sthrm/std/utils/locale.ts';
+import {convertPHPDateFormat} from '@sthrm/std/utils/date.ts';
 
 export default {
   title: 'Example/DateInput',

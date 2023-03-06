@@ -19,7 +19,7 @@
 
 import {mount} from '@vue/test-utils';
 import {defineComponent} from 'vue';
-import navigationMixin from '@ohrm/std/core/components/Input/Select/navigation-mixin';
+import navigationMixin from '@sthrm/std/core/components/Input/Select/navigation-mixin';
 
 const MockComponent = defineComponent({
   name: 'mock-component',

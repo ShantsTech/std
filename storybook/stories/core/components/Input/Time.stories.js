@@ -18,7 +18,7 @@
  */
 
 import {h, ref} from 'vue';
-import TimeInput from '@ohrm/std/core/components/Input/Time/TimeInput';
+import TimeInput from '@sthrm/std/core/components/Input/Time/TimeInput';
 
 export default {
   title: 'Example/TimeInput',

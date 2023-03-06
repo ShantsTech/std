@@ -49,14 +49,14 @@ import {
 } from 'vue';
 import {CardSelector, CardHeaders, SortDefinition} from './types';
 import useResponsive from '../../../composables/useResponsive';
-import Table from '@ohrm/std/core/components/CardTable/Table/Table.vue';
-import Spinner from '@ohrm/std/core/components/Loader/Spinner.vue';
+import Table from '@sthrm/std/core/components/CardTable/Table/Table.vue';
+import Spinner from '@sthrm/std/core/components/Loader/Spinner.vue';
 
 // Body Decorators
-import DefaultCardContainer from '@ohrm/std/core/components/CardTable/Decorator/DefaultCardContainer.vue';
+import DefaultCardContainer from '@sthrm/std/core/components/CardTable/Decorator/DefaultCardContainer.vue';
 
 // Headers Decorators
-import DefaultCardHeader from '@ohrm/std/core/components/CardTable/Header/DefaultCardHeader.vue';
+import DefaultCardHeader from '@sthrm/std/core/components/CardTable/Header/DefaultCardHeader.vue';
 
 export default defineComponent({
   name: 'std-card-card-table',

@@ -51,7 +51,7 @@ import {defineComponent, PropType} from 'vue';
 import Branding from './Branding.vue';
 import MainMenu from './MainMenu.vue';
 import MenuItem from './types';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
 
 export default defineComponent({
   name: 'std-side-panel',

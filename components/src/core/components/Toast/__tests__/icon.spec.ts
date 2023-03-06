@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import ToastIcon from '@ohrm/std/core/components/Toast/Icon.vue';
+import ToastIcon from '@sthrm/std/core/components/Toast/Icon.vue';
 
 describe('Toast > Icon.vue', () => {
   it('should renders STD ToastIcon', () => {

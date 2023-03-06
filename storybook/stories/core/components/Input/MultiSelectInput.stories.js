@@ -17,11 +17,11 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import MultiSelectInput from '@ohrm/std/core/components/Input/MultiSelect/MultiSelectInput';
+import MultiSelectInput from '@sthrm/std/core/components/Input/MultiSelect/MultiSelectInput';
 import {
   BOTTOM,
   DROPDOWN_POSITIONS,
-} from '@ohrm/std/core/components/Input/types';
+} from '@sthrm/std/core/components/Input/types';
 import {h, ref} from 'vue';
 
 export default {

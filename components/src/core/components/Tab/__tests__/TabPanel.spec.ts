@@ -19,7 +19,7 @@
 
 import {h} from 'vue';
 import {mount, shallowMount} from '@vue/test-utils';
-import TabPanel from '@ohrm/std/core/components/Tab/TabPanel.vue';
+import TabPanel from '@sthrm/std/core/components/Tab/TabPanel.vue';
 
 describe('TabPanel.vue', () => {
   it('renders STD Tab Panel', () => {

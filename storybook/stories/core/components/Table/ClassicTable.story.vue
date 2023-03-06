@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import ClassicTable from '@ohrm/std/core/components/Table/ClassicTable';
+import ClassicTable from '@sthrm/std/core/components/Table/ClassicTable';
 
 export default {
   data() {

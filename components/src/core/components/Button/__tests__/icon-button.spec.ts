@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import IconButton from '@ohrm/std/core/components/Button/Icon.vue';
+import IconButton from '@sthrm/std/core/components/Button/Icon.vue';
 
 describe('Button > Icon.vue', () => {
   it('should renders STD icon button', () => {

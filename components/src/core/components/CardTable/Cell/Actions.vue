@@ -37,9 +37,9 @@
 import {defineComponent, mergeProps} from 'vue';
 import {cellMixin} from './cell-mixin';
 import {ActionsCellConfig, Action, RowItem, ActionCellEvent} from './types';
-import IconButton from '@ohrm/std/core/components/Button/Icon.vue';
-import Button from '@ohrm/std/core/components/Button/Button.vue';
-import Dropdown from '@ohrm/std/core/components/CardTable/Cell/Dropdown.vue';
+import IconButton from '@sthrm/std/core/components/Button/Icon.vue';
+import Button from '@sthrm/std/core/components/Button/Button.vue';
+import Dropdown from '@sthrm/std/core/components/CardTable/Cell/Dropdown.vue';
 
 export default defineComponent({
   name: 'std-table-cell-actions',

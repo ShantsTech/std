@@ -83,8 +83,8 @@ import {
 } from 'vue';
 import VGrid from '@revolist/vue3-datagrid';
 import useResize from '../../../composables/useResize';
-import IconButton from '@ohrm/std/core/components/Button/Icon.vue';
-import Spinner from '@ohrm/std/core/components/Loader/Spinner.vue';
+import IconButton from '@sthrm/std/core/components/Button/Icon.vue';
+import Spinner from '@sthrm/std/core/components/Loader/Spinner.vue';
 
 export default defineComponent({
   name: 'std-report-table',

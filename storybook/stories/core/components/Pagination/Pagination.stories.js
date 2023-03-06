@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import Pagination from '@ohrm/std/core/components/Pagination/Pagination';
+import Pagination from '@sthrm/std/core/components/Pagination/Pagination';
 
 export default {
   title: 'Example/Pagination',

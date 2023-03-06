@@ -109,18 +109,18 @@
 </template>
 
 <script>
-import TableFilter from '@ohrm/std/core/components/TableFilter/TableFilter';
-import Grid from '@ohrm/std/core/components/Grid/Grid';
-import GridItem from '@ohrm/std/core/components/Grid/GridItem';
-import Form from '@ohrm/std/core/components/Form/Form';
-import FormRow from '@ohrm/std/core/components/Form/FormRow';
-import FormActions from '@ohrm/std/core/components/Form/FormActions';
-import InputField from '@ohrm/std/core/components/InputField/InputField';
-import InputGroup from '@ohrm/std/core/components/InputField/InputGroup';
-import IconButton from '@ohrm/std/core/components/Button/Icon';
-import Button from '@ohrm/std/core/components/Button/Button';
-import Divider from '@ohrm/std/core/components/Divider/Divider';
-import CardTable from '@ohrm/std/core/components/CardTable/CardTable';
+import TableFilter from '@sthrm/std/core/components/TableFilter/TableFilter';
+import Grid from '@sthrm/std/core/components/Grid/Grid';
+import GridItem from '@sthrm/std/core/components/Grid/GridItem';
+import Form from '@sthrm/std/core/components/Form/Form';
+import FormRow from '@sthrm/std/core/components/Form/FormRow';
+import FormActions from '@sthrm/std/core/components/Form/FormActions';
+import InputField from '@sthrm/std/core/components/InputField/InputField';
+import InputGroup from '@sthrm/std/core/components/InputField/InputGroup';
+import IconButton from '@sthrm/std/core/components/Button/Icon';
+import Button from '@sthrm/std/core/components/Button/Button';
+import Divider from '@sthrm/std/core/components/Divider/Divider';
+import CardTable from '@sthrm/std/core/components/CardTable/CardTable';
 
 export default {
   data() {

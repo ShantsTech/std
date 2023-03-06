@@ -30,7 +30,7 @@
 
 <script lang="ts">
 import {defineComponent} from 'vue';
-import SelectOption from '@ohrm/std/core/components/Input/Select/SelectOption.vue';
+import SelectOption from '@sthrm/std/core/components/Input/Select/SelectOption.vue';
 import usei18n from '../../../../composables/usei18n';
 
 export default defineComponent({

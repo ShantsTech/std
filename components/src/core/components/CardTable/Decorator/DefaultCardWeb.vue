@@ -42,9 +42,9 @@
 <script lang="ts">
 import {defineComponent} from 'vue';
 import {decoratorMixin} from './decorator-mixin';
-import TableBody from '@ohrm/std/core/components/CardTable/Table/TableBody.vue';
-import TableRow from '@ohrm/std/core/components/CardTable/Table/TableRow.vue';
-import DefaultCellContainer from '@ohrm/std/core/components/CardTable/Cell/DefaultCellContainer.vue';
+import TableBody from '@sthrm/std/core/components/CardTable/Table/TableBody.vue';
+import TableRow from '@sthrm/std/core/components/CardTable/Table/TableRow.vue';
+import DefaultCellContainer from '@sthrm/std/core/components/CardTable/Cell/DefaultCellContainer.vue';
 import {CardHeaders} from '../types';
 import emitter from '../../../../utils/emitter';
 

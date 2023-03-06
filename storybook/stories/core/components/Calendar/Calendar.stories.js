@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import Calendar from '@ohrm/std/core/components/Calendar/Calendar';
+import Calendar from '@sthrm/std/core/components/Calendar/Calendar';
 import {ref} from 'vue';
 import {enGB, ru} from 'date-fns/locale';
 import {getDaysInMonth} from 'date-fns';

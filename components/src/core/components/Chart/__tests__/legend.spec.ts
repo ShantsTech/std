@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Legend from '@ohrm/std/core/components/Chart/Legend.vue';
+import Legend from '@sthrm/std/core/components/Chart/Legend.vue';
 
 describe('Chart > Legend.vue', () => {
   const dataset = [

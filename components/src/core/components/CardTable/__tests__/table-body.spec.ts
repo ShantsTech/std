@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import TableBody from '@ohrm/std/core/components/CardTable/Table/TableBody.vue';
+import TableBody from '@sthrm/std/core/components/CardTable/Table/TableBody.vue';
 
 describe('CardTable > TableBody.vue', () => {
   it('renders STD CardTable > TableBody', () => {

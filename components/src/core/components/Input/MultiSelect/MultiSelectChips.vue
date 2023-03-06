@@ -43,8 +43,8 @@
 <script lang="ts">
 import {defineComponent} from 'vue';
 import {Option} from '../types';
-import Chip from '@ohrm/std/core/components/Chip/Chip.vue';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
+import Chip from '@sthrm/std/core/components/Chip/Chip.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
 
 export default defineComponent({
   name: 'std-mutliselect-chips',

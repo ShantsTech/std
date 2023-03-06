@@ -65,8 +65,8 @@
 </template>
 
 <script>
-import Alert from '@ohrm/std/core/components/Alert/Alert';
-import Button from '@ohrm/std/core/components/Button/Button';
+import Alert from '@sthrm/std/core/components/Alert/Alert';
+import Button from '@sthrm/std/core/components/Button/Button';
 
 export default {
   name: 'alert-container-example',

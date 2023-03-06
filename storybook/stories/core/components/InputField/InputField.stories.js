@@ -17,10 +17,10 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import InputField from '@ohrm/std/core/components/InputField/InputField';
-import {TYPES} from '@ohrm/std/core/components/InputField/types';
+import InputField from '@sthrm/std/core/components/InputField/InputField';
+import {TYPES} from '@sthrm/std/core/components/InputField/types';
 import InputFieldValidation from './InputFieldValidation.story.vue';
-import Form from '@ohrm/std/core/components/Form/Form';
+import Form from '@sthrm/std/core/components/Form/Form';
 import {h, ref} from 'vue';
 
 export default {

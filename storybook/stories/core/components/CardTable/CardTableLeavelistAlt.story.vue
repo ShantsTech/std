@@ -35,9 +35,9 @@
 </template>
 
 <script>
-import CardTable from '@ohrm/std/core/components/CardTable/CardTable';
-import SelectInput from '@ohrm/std/core/components/Input/Select/SelectInput';
-import Textarea from '@ohrm/std/core/components/Textarea/Textarea';
+import CardTable from '@sthrm/std/core/components/CardTable/CardTable';
+import SelectInput from '@sthrm/std/core/components/Input/Select/SelectInput';
+import Textarea from '@sthrm/std/core/components/Textarea/Textarea';
 
 export default {
   data() {

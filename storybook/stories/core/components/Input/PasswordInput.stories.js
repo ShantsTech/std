@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import PasswordInput from '@ohrm/std/core/components/Input/PasswordInput';
+import PasswordInput from '@sthrm/std/core/components/Input/PasswordInput';
 
 export default {
   title: 'Example/PasswordInput',

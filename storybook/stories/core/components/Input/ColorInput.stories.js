@@ -18,7 +18,7 @@
  */
 
 import {h, ref} from 'vue';
-import ColorInput from '@ohrm/std/core/components/Input/Color/ColorInput.vue';
+import ColorInput from '@sthrm/std/core/components/Input/Color/ColorInput.vue';
 
 export default {
   title: 'Example/ColorInput',

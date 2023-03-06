@@ -35,10 +35,10 @@
 </template>
 
 <script>
-import ReportTable from '@ohrm/std/core/components/ReportTable/ReportTable';
-import CellAdapter from '@ohrm/std/core/components/ReportTable/CellAdapter';
-import MultilineCell from '@ohrm/std/core/components/ReportTable/Cell/MultilineCell';
-import Pagination from '@ohrm/std/core/components/Pagination/Pagination';
+import ReportTable from '@sthrm/std/core/components/ReportTable/ReportTable';
+import CellAdapter from '@sthrm/std/core/components/ReportTable/CellAdapter';
+import MultilineCell from '@sthrm/std/core/components/ReportTable/Cell/MultilineCell';
+import Pagination from '@sthrm/std/core/components/Pagination/Pagination';
 import {headers, data} from './mockdata';
 
 export default {

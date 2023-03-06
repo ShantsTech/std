@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import CardTable from '@ohrm/std/core/components/CardTable/CardTable.vue';
+import CardTable from '@sthrm/std/core/components/CardTable/CardTable.vue';
 
 const DUMMY_DATA = {
   selector: {

@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import PageItem from '@ohrm/std/core/components/Pagination/PageItem.vue';
+import PageItem from '@sthrm/std/core/components/Pagination/PageItem.vue';
 
 describe('PageItem.vue', () => {
   it('renders STD PageItem', () => {

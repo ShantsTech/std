@@ -64,9 +64,9 @@
 import {defineComponent, PropType} from 'vue';
 import MenuItem from './types';
 import MainMenuItem from './MainMenuItem.vue';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
-import Input from '@ohrm/std/core/components/Input/Input.vue';
-import IconButton from '@ohrm/std/core/components/Button/Icon.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
+import Input from '@sthrm/std/core/components/Input/Input.vue';
+import IconButton from '@sthrm/std/core/components/Button/Icon.vue';
 import usei18n from '../../../composables/usei18n';
 
 export default defineComponent({

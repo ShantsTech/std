@@ -46,8 +46,8 @@
 </template>
 
 <script>
-import AutocompleteInput from '@ohrm/std/core/components/Input/Autocomplete/AutocompleteInput';
-import CheckboxInput from '@ohrm/std/core/components/Input/CheckboxInput';
+import AutocompleteInput from '@sthrm/std/core/components/Input/Autocomplete/AutocompleteInput';
+import CheckboxInput from '@sthrm/std/core/components/Input/CheckboxInput';
 
 export default {
   data() {

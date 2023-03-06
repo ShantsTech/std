@@ -76,15 +76,15 @@
 
 <script>
 import {ref} from 'vue';
-import Form from '@ohrm/std/core/components/Form/Form';
-import FormRow from '@ohrm/std/core/components/Form/FormRow';
-import InputGroup from '@ohrm/std/core/components/InputField/InputGroup';
-import FormActions from '@ohrm/std/core/components/Form/FormActions';
-import InputField from '@ohrm/std/core/components/InputField/InputField';
-import Divider from '@ohrm/std/core/components/Divider/Divider';
-import Button from '@ohrm/std/core/components/Button/Button';
-import Text from '@ohrm/std/core/components/Text/Text';
-import promiseDebounce from '@ohrm/std/utils/promiseDebounce';
+import Form from '@sthrm/std/core/components/Form/Form';
+import FormRow from '@sthrm/std/core/components/Form/FormRow';
+import InputGroup from '@sthrm/std/core/components/InputField/InputGroup';
+import FormActions from '@sthrm/std/core/components/Form/FormActions';
+import InputField from '@sthrm/std/core/components/InputField/InputField';
+import Divider from '@sthrm/std/core/components/Divider/Divider';
+import Button from '@sthrm/std/core/components/Button/Button';
+import Text from '@sthrm/std/core/components/Text/Text';
+import promiseDebounce from '@sthrm/std/utils/promiseDebounce';
 
 const checkGithub = function(value) {
   return new Promise(resolve => {

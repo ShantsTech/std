@@ -17,8 +17,8 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import RadioInput from '@ohrm/std/core/components/Input/RadioInput';
-import {RIGHT, LABEL_POSITIONS} from '@ohrm/std/core/components/Input/types';
+import RadioInput from '@sthrm/std/core/components/Input/RadioInput';
+import {RIGHT, LABEL_POSITIONS} from '@sthrm/std/core/components/Input/types';
 
 export default {
   title: 'Example/RadioInput',

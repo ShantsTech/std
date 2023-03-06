@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import SwitchInput from '@ohrm/std/core/components/Input/SwitchInput.vue';
+import SwitchInput from '@sthrm/std/core/components/Input/SwitchInput.vue';
 
 describe('SwitchInput.vue', () => {
   it('renders STD Switch Input', () => {

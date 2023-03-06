@@ -37,9 +37,9 @@
 
 <script lang="ts">
 import {defineComponent, PropType} from 'vue';
-import IconButton from '@ohrm/std/core/components/Button/Icon.vue';
-import DropdownMenu from '@ohrm/std/core/components/DropdownMenu/DropdownMenu.vue';
-import Text from '@ohrm/std/core/components/Text/Text.vue';
+import IconButton from '@sthrm/std/core/components/Button/Icon.vue';
+import DropdownMenu from '@sthrm/std/core/components/DropdownMenu/DropdownMenu.vue';
+import Text from '@sthrm/std/core/components/Text/Text.vue';
 import {ActionCellEvent, DropdownOption} from './types';
 
 export default defineComponent({

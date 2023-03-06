@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import FileInput from '@ohrm/std/core/components/Input/FileInput.vue';
+import FileInput from '@sthrm/std/core/components/Input/FileInput.vue';
 
 describe('FileInput.vue', () => {
   it('renders STD FileInput', () => {

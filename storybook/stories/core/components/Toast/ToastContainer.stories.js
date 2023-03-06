@@ -17,11 +17,11 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import ToastContainer from '@ohrm/std/core/components/Toast/Container';
+import ToastContainer from '@sthrm/std/core/components/Toast/Container';
 import {
   POSITIONS,
   POSITION_BOTTOM,
-} from '@ohrm/std/core/components/Toast/types';
+} from '@sthrm/std/core/components/Toast/types';
 import ToastContainerCustomAnimationStory from './ToastContainerCustomAnimation.story.vue';
 import ToastContainerCustomWrapperStory from './ToastContainerCustomWrapper.story.vue';
 

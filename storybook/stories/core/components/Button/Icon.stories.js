@@ -17,8 +17,8 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import IconButton from '@ohrm/std/core/components/Button/Icon';
-import {ICON_TYPES} from '@ohrm/std/core/components/Button/types';
+import IconButton from '@sthrm/std/core/components/Button/Icon';
+import {ICON_TYPES} from '@sthrm/std/core/components/Button/types';
 
 export default {
   title: 'Example/Button/IconButton',

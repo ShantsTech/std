@@ -45,7 +45,7 @@
 
 <script lang="ts">
 import {defineComponent} from 'vue';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
 
 export default defineComponent({
   name: 'std-autocomplete-text-input',

@@ -18,9 +18,9 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Input from '@ohrm/std/core/components/Input/Input.vue';
-import ColorInput from '@ohrm/std/core/components/Input/Color/ColorInput.vue';
-import ColorPicker from '@ohrm/std/core/components/Input/Color/ColorPicker.vue';
+import Input from '@sthrm/std/core/components/Input/Input.vue';
+import ColorInput from '@sthrm/std/core/components/Input/Color/ColorInput.vue';
+import ColorPicker from '@sthrm/std/core/components/Input/Color/ColorPicker.vue';
 
 describe('ColorInput.vue', () => {
   // Mock canvas method

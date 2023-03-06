@@ -18,7 +18,7 @@
  */
 
 import {shallowMount} from '@vue/test-utils';
-import PieChart from '@ohrm/std/core/components/Chart/PieChart.vue';
+import PieChart from '@sthrm/std/core/components/Chart/PieChart.vue';
 
 jest.mock('chart.js');
 

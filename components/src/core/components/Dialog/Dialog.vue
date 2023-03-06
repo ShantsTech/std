@@ -48,12 +48,12 @@
 
 <script lang="ts">
 import {defineComponent} from 'vue';
-import Overlay from '@ohrm/std/core/components/Dialog/Overlay.vue';
-import CloseButton from '@ohrm/std/core/components/Dialog/CloseButton.vue';
-import Sheet from '@ohrm/std/core/components/Sheet/Sheet.vue';
+import Overlay from '@sthrm/std/core/components/Dialog/Overlay.vue';
+import CloseButton from '@sthrm/std/core/components/Dialog/CloseButton.vue';
+import Sheet from '@sthrm/std/core/components/Sheet/Sheet.vue';
 
 // Containers
-import DefaultContainer from '@ohrm/std/core/components/Dialog/Container/Default.vue';
+import DefaultContainer from '@sthrm/std/core/components/Dialog/Container/Default.vue';
 
 export default defineComponent({
   name: 'std-dialog',

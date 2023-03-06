@@ -33,7 +33,7 @@
 
 <script lang="ts">
 import {defineComponent} from 'vue';
-import AutocompleteOption from '@ohrm/std/core/components/Input/Autocomplete/AutocompleteOption.vue';
+import AutocompleteOption from '@sthrm/std/core/components/Input/Autocomplete/AutocompleteOption.vue';
 import usei18n from '../../../../composables/usei18n';
 
 export default defineComponent({

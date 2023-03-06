@@ -96,15 +96,15 @@
 </template>
 
 <script>
-import Form from '@ohrm/std/core/components/Form/Form';
-import Text from '@ohrm/std/core/components/Text/Text';
-import FormRow from '@ohrm/std/core/components/Form/FormRow';
-import Button from '@ohrm/std/core/components/Button/Button';
-import TabPanel from '@ohrm/std/core/components/Tab/TabPanel';
-import Divider from '@ohrm/std/core/components/Divider/Divider';
-import FormActions from '@ohrm/std/core/components/Form/FormActions';
-import TabContainer from '@ohrm/std/core/components/Tab/TabContainer';
-import InputField from '@ohrm/std/core/components/InputField/InputField';
+import Form from '@sthrm/std/core/components/Form/Form';
+import Text from '@sthrm/std/core/components/Text/Text';
+import FormRow from '@sthrm/std/core/components/Form/FormRow';
+import Button from '@sthrm/std/core/components/Button/Button';
+import TabPanel from '@sthrm/std/core/components/Tab/TabPanel';
+import Divider from '@sthrm/std/core/components/Divider/Divider';
+import FormActions from '@sthrm/std/core/components/Form/FormActions';
+import TabContainer from '@sthrm/std/core/components/Tab/TabContainer';
+import InputField from '@sthrm/std/core/components/InputField/InputField';
 
 export default {
   components: {

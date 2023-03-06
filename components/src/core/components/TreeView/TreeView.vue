@@ -31,7 +31,7 @@
 
 <script lang="ts">
 import {defineComponent} from 'vue';
-import TreeNode from '@ohrm/std/core/components/TreeView/TreeNode.vue';
+import TreeNode from '@sthrm/std/core/components/TreeView/TreeNode.vue';
 
 export default defineComponent({
   name: 'std-tree-view',

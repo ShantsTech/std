@@ -41,9 +41,9 @@
 </template>
 
 <script>
-import Input from '@ohrm/std/core/components/Input/Input';
-import Button from '@ohrm/std/core/components/Button/Button';
-import CardTable from '@ohrm/std/core/components/CardTable/CardTable';
+import Input from '@sthrm/std/core/components/Input/Input';
+import Button from '@sthrm/std/core/components/Button/Button';
+import CardTable from '@sthrm/std/core/components/CardTable/CardTable';
 
 export default {
   data() {

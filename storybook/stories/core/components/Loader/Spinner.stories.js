@@ -17,7 +17,7 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import Spinner from '@ohrm/std/core/components/Loader/Spinner';
+import Spinner from '@sthrm/std/core/components/Loader/Spinner';
 
 export default {
   title: 'Example/Loader/Spinner',

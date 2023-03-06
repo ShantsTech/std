@@ -36,7 +36,7 @@
 <script lang="ts">
 import {computed, defineComponent, toRef} from 'vue';
 import useFormValidation from '../../../composables/useFormValidation';
-import Spinner from '@ohrm/std/core/components/Loader/Spinner.vue';
+import Spinner from '@sthrm/std/core/components/Loader/Spinner.vue';
 
 export default defineComponent({
   name: 'std-form',

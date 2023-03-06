@@ -52,10 +52,10 @@
 </template>
 
 <script>
-import Dialog from '@ohrm/std/core/components/Dialog/Dialog';
-import IconButton from '@ohrm/std/core/components/Button/Icon';
-import Button from '@ohrm/std/core/components/Button/Button';
-import Text from '@ohrm/std/core/components/Text/Text';
+import Dialog from '@sthrm/std/core/components/Dialog/Dialog';
+import IconButton from '@sthrm/std/core/components/Button/Icon';
+import Button from '@sthrm/std/core/components/Button/Button';
+import Text from '@sthrm/std/core/components/Text/Text';
 
 export default {
   components: {

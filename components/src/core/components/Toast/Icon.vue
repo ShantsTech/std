@@ -31,7 +31,7 @@
 import {defineComponent} from 'vue';
 import {toastMixin} from './toast-mixin';
 import {ToastType, ICON_MAP} from './types';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
 
 export default defineComponent({
   name: 'std-toast-icon',

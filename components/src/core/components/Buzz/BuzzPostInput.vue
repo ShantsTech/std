@@ -53,7 +53,7 @@ import {
 } from 'vue';
 import {Rule} from '../../../composables/types';
 import useField from '../../../composables/useField';
-import Text from '@ohrm/std/core/components/Text/Text.vue';
+import Text from '@sthrm/std/core/components/Text/Text.vue';
 
 interface TextAreaInputEvent extends InputEvent {
   target: HTMLTextAreaElement;

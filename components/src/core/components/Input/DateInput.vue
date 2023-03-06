@@ -70,9 +70,9 @@ import {enGB} from 'date-fns/locale';
 import usei18n from '../../../composables/usei18n';
 import {formatDate, parseDate, freshDate} from '../../../utils/date';
 import {defineComponent, reactive, toRefs, PropType} from 'vue';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
-import Input from '@ohrm/std/core/components/Input/Input.vue';
-import Calendar from '@ohrm/std/core/components/Calendar/Calendar.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
+import Input from '@sthrm/std/core/components/Input/Input.vue';
+import Calendar from '@sthrm/std/core/components/Calendar/Calendar.vue';
 
 export default defineComponent({
   name: 'std-date-input',

@@ -25,8 +25,8 @@
 
 <script lang="ts">
 import {defineComponent} from 'vue';
-import DefaultCardMobile from '@ohrm/std/core/components/CardTable/Decorator/DefaultCardMobile.vue';
-import DefaultCardWeb from '@ohrm/std/core/components/CardTable/Decorator/DefaultCardWeb.vue';
+import DefaultCardMobile from '@sthrm/std/core/components/CardTable/Decorator/DefaultCardMobile.vue';
+import DefaultCardWeb from '@sthrm/std/core/components/CardTable/Decorator/DefaultCardWeb.vue';
 import {DEVICE_LG, DEVICE_XL} from '../../../../composables/useResponsive';
 
 export default defineComponent({

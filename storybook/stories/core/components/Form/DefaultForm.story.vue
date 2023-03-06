@@ -40,11 +40,11 @@
 </template>
 
 <script>
-import Form from '@ohrm/std/core/components/Form/Form';
-import FormRow from '@ohrm/std/core/components/Form/FormRow';
-import InputGroup from '@ohrm/std/core/components/InputField/InputGroup';
-import Input from '@ohrm/std/core/components/Input/Input';
-import Label from '@ohrm/std/core/components/Label/Label';
+import Form from '@sthrm/std/core/components/Form/Form';
+import FormRow from '@sthrm/std/core/components/Form/FormRow';
+import InputGroup from '@sthrm/std/core/components/InputField/InputGroup';
+import Input from '@sthrm/std/core/components/Input/Input';
+import Label from '@sthrm/std/core/components/Label/Label';
 
 export default {
   name: 'DefaultForm',

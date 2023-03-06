@@ -59,8 +59,8 @@
 <script lang="ts">
 import {defineComponent, PropType, ref} from 'vue';
 import {TopMenuItem} from './types';
-import Icon from '@ohrm/std/core/components/Icon/Icon.vue';
-import DropdownMenu from '@ohrm/std/core/components/DropdownMenu/DropdownMenu.vue';
+import Icon from '@sthrm/std/core/components/Icon/Icon.vue';
+import DropdownMenu from '@sthrm/std/core/components/DropdownMenu/DropdownMenu.vue';
 import usei18n from '../../../composables/usei18n';
 
 export default defineComponent({

@@ -48,14 +48,14 @@
 </template>
 
 <script>
-import Table from '@ohrm/std/core/components/Table/Table';
-import TableHeader from '@ohrm/std/core/components/Table/TableHeader';
-import TableBody from '@ohrm/std/core/components/Table/TableBody';
-import TableFooter from '@ohrm/std/core/components/Table/TableFooter';
-import TableRow from '@ohrm/std/core/components/Table/TableRow';
-import TableHeaderCell from '@ohrm/std/core/components/Table/TableHeaderCell';
-import TableDataCell from '@ohrm/std/core/components/Table/TableDataCell';
-import IconButton from '@ohrm/std/core/components/Button/Icon';
+import Table from '@sthrm/std/core/components/Table/Table';
+import TableHeader from '@sthrm/std/core/components/Table/TableHeader';
+import TableBody from '@sthrm/std/core/components/Table/TableBody';
+import TableFooter from '@sthrm/std/core/components/Table/TableFooter';
+import TableRow from '@sthrm/std/core/components/Table/TableRow';
+import TableHeaderCell from '@sthrm/std/core/components/Table/TableHeaderCell';
+import TableDataCell from '@sthrm/std/core/components/Table/TableDataCell';
+import IconButton from '@sthrm/std/core/components/Button/Icon';
 
 export default {
   data() {

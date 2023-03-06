@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import CardTable from '@ohrm/std/core/components/CardTable/CardTable';
+import CardTable from '@sthrm/std/core/components/CardTable/CardTable';
 
 export default {
   data() {

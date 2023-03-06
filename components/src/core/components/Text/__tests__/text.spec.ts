@@ -18,7 +18,7 @@
  */
 
 import {mount} from '@vue/test-utils';
-import Text from '@ohrm/std/core/components/Text/Text.vue';
+import Text from '@sthrm/std/core/components/Text/Text.vue';
 
 const DUMMY_TEXT = 'Nunito is a well balanced sans serif typeface';
 

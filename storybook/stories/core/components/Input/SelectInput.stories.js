@@ -17,11 +17,11 @@
  * along with this program.  If not, see  http://www.gnu.org/licenses
  */
 
-import SelectInput from '@ohrm/std/core/components/Input/Select/SelectInput';
+import SelectInput from '@sthrm/std/core/components/Input/Select/SelectInput';
 import {
   BOTTOM,
   DROPDOWN_POSITIONS,
-} from '@ohrm/std/core/components/Input/types';
+} from '@sthrm/std/core/components/Input/types';
 import {h, ref} from 'vue';
 
 export default {

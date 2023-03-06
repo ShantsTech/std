@@ -69,14 +69,14 @@
 </template>
 
 <script>
-import Text from '@ohrm/std/core/components/Text/Text';
-import Grid from '@ohrm/std/core/components/Grid/Grid';
-import Sheet from '@ohrm/std/core/components/Sheet/Sheet';
-import GridItem from '@ohrm/std/core/components/Grid/GridItem';
-import Divider from '@ohrm/std/core/components/Divider/Divider';
-import PieChart from '@ohrm/std/core/components/Chart/PieChart';
-import BarChart from '@ohrm/std/core/components/Chart/BarChart';
-import {CHART_COLORS} from '@ohrm/std/core/components/Chart/types';
+import Text from '@sthrm/std/core/components/Text/Text';
+import Grid from '@sthrm/std/core/components/Grid/Grid';
+import Sheet from '@sthrm/std/core/components/Sheet/Sheet';
+import GridItem from '@sthrm/std/core/components/Grid/GridItem';
+import Divider from '@sthrm/std/core/components/Divider/Divider';
+import PieChart from '@sthrm/std/core/components/Chart/PieChart';
+import BarChart from '@sthrm/std/core/components/Chart/BarChart';
+import {CHART_COLORS} from '@sthrm/std/core/components/Chart/types';
 
 export default {
   components: {

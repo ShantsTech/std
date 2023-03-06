@@ -54,8 +54,8 @@
 </template>
 
 <script>
-import Dialog from '@ohrm/std/core/components/Dialog/Dialog';
-import IconButton from '@ohrm/std/core/components/Button/Icon';
+import Dialog from '@sthrm/std/core/components/Dialog/Dialog';
+import IconButton from '@sthrm/std/core/components/Button/Icon';
 
 export default {
   components: {

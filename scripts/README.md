@@ -40,9 +40,9 @@ $ npm publish
 ### Tag a package version
 
 ```bash
-$ npm dist-tag add @ohrm/std@1.0.4 latest
+$ npm dist-tag add @sthrm/std@1.0.4 latest
 
-$ npm dist-tag add @ohrm/std@1.0.5-alpha.1 dev
+$ npm dist-tag add @sthrm/std@1.0.5-alpha.1 dev
 ```
 
 ## How to publish dev release

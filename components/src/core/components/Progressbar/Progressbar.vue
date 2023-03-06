@@ -33,7 +33,7 @@
 <script lang="ts">
 import {defineComponent} from 'vue';
 import {ProgressbarType, TYPE_DEFAULT, TYPES} from './types';
-import Text from '@ohrm/std/core/components/Text/Text.vue';
+import Text from '@sthrm/std/core/components/Text/Text.vue';
 
 export default defineComponent({
   name: 'std-progressbar',
