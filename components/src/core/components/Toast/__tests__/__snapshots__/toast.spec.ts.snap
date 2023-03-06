@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toast > Toast.vue should renders STD Toast 1`] = `
+<div class="std-toast std-toast--default" aria-live="assertive">
+  <div class="std-toast-start">
+    <div class="std-toast-icon-container">
+      <div class="std-toast-icon-wrap std-toast-icon-wrap--default"><i class="std-icon bi-star std-toast-icon"></i></div>
+    </div>
+    <div class="std-toast-content std-toast-content--default">
+      <p class="std-text std-text--p std-text--toast-title std-toast-content-text">Test Toast</p>
+      <p class="std-text std-text--p std-text--toast-message std-toast-content-text"></p>
+    </div>
+  </div>
+  <div class="std-toast-close-container">
+    <div class="std-toast-close std-toast-close--default" role="button"> × </div>
+  </div>
+</div>
+`;
+
+exports[`Toast > Toast.vue should renders STD Toast error 1`] = `
+<div class="std-toast std-toast--error" aria-live="assertive">
+  <div class="std-toast-start">
+    <div class="std-toast-icon-container">
+      <div class="std-toast-icon-wrap std-toast-icon-wrap--error"><i class="std-icon bi-exclamation-circle std-toast-icon"></i></div>
+    </div>
+    <div class="std-toast-content std-toast-content--error">
+      <p class="std-text std-text--p std-text--toast-title std-toast-content-text">Test Toast</p>
+      <p class="std-text std-text--p std-text--toast-message std-toast-content-text"></p>
+    </div>
+  </div>
+  <div class="std-toast-close-container">
+    <div class="std-toast-close std-toast-close--error" role="button"> × </div>
+  </div>
+</div>
+`;
+
+exports[`Toast > Toast.vue should renders STD Toast info 1`] = `
+<div class="std-toast std-toast--info" aria-live="assertive">
+  <div class="std-toast-start">
+    <div class="std-toast-icon-container">
+      <div class="std-toast-icon-wrap std-toast-icon-wrap--info"><i class="std-icon bi-info-circle std-toast-icon"></i></div>
+    </div>
+    <div class="std-toast-content std-toast-content--info">
+      <p class="std-text std-text--p std-text--toast-title std-toast-content-text">Test Toast</p>
+      <p class="std-text std-text--p std-text--toast-message std-toast-content-text"></p>
+    </div>
+  </div>
+  <div class="std-toast-close-container">
+    <div class="std-toast-close std-toast-close--info" role="button"> × </div>
+  </div>
+</div>
+`;
+
+exports[`Toast > Toast.vue should renders STD Toast success 1`] = `
+<div class="std-toast std-toast--success" aria-live="assertive">
+  <div class="std-toast-start">
+    <div class="std-toast-icon-container">
+      <div class="std-toast-icon-wrap std-toast-icon-wrap--success"><i class="std-icon bi-check2 std-toast-icon"></i></div>
+    </div>
+    <div class="std-toast-content std-toast-content--success">
+      <p class="std-text std-text--p std-text--toast-title std-toast-content-text">Test Toast</p>
+      <p class="std-text std-text--p std-text--toast-message std-toast-content-text"></p>
+    </div>
+  </div>
+  <div class="std-toast-close-container">
+    <div class="std-toast-close std-toast-close--success" role="button"> × </div>
+  </div>
+</div>
+`;
+
+exports[`Toast > Toast.vue should renders STD Toast warn 1`] = `
+<div class="std-toast std-toast--warn" aria-live="assertive">
+  <div class="std-toast-start">
+    <div class="std-toast-icon-container">
+      <div class="std-toast-icon-wrap std-toast-icon-wrap--warn"><i class="std-icon bi-exclamation-triangle std-toast-icon"></i></div>
+    </div>
+    <div class="std-toast-content std-toast-content--warn">
+      <p class="std-text std-text--p std-text--toast-title std-toast-content-text">Test Toast</p>
+      <p class="std-text std-text--p std-text--toast-message std-toast-content-text"></p>
+    </div>
+  </div>
+  <div class="std-toast-close-container">
+    <div class="std-toast-close std-toast-close--warn" role="button"> × </div>
+  </div>
+</div>
+`;

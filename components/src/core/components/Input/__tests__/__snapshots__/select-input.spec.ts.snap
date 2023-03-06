@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectInput.vue renders STD Select Input 1`] = `
+<div class="std-select-wrapper">
+  <div class="std-select-text std-select-text--active">
+    <div class="std-select-text-input" tabindex="0">-- Select --</div>
+    <div class="std-select-text--after"><i class="std-icon bi-caret-down-fill std-select-text--arrow"></i></div>
+  </div>
+  <!--v-if-->
+</div>
+`;

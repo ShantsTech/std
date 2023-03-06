@@ -1,0 +1,65 @@
+// This file is part of Shants Tech LLC
+//
+// Copyright (C) 2020 Shants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+@import 'variables';
+
+.std-layout {
+  position: relative;
+  &-container {
+    position: relative;
+    overflow: hidden;
+    width: $std-layout-container-mobile-width;
+    margin-top: $std-layout-container-margin-top;
+    @include std-respond-to('md') {
+      overflow: unset;
+      width: $std-layout-container-web-width;
+      margin-left: $std-layout-container-margin-left;
+      &.--collapse {
+        width: $std-layout-container-web-collapse-width;
+        margin-left: $std-layout-container-margin-left--collapse;
+      }
+    }
+  }
+  &-context {
+    min-height: $std-layout-context-height;
+    padding-top: $std-layout-context-padding-top;
+    padding-left: $std-layout-context-mobile-padding-left;
+    padding-right: $std-layout-context-mobile-padding-right;
+    @include std-respond-to('md') {
+      padding-left: $std-layout-context-web-padding-left;
+      padding-right: $std-layout-context-web-padding-right;
+    }
+  }
+  &-footer {
+    margin-top: $std-layout-context-padding-top;
+    padding-left: $std-layout-context-mobile-padding-left;
+    padding-right: $std-layout-context-mobile-padding-right;
+    @include std-respond-to('md') {
+      padding-left: $std-layout-context-web-padding-left;
+      padding-right: $std-layout-context-web-padding-right;
+    }
+  }
+  &-overlay {
+    z-index: $std-sidepanel-overlay-z-index;
+    @include std-respond-to('xs') {
+      display: flex;
+    }
+    @include std-respond-to('md') {
+      display: none;
+    }
+  }
+}

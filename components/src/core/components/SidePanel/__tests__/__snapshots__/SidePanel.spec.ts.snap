@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SidePanel.vue renders STD Side Panel 1`] = `
+<aside class="std-sidepanel">
+  <nav class="std-navbar-nav" role="navigation" aria-label="Sidepanel">
+    <div class="std-sidepanel-header">
+      <std-branding-stub></std-branding-stub>
+      <std-icon-stub class="std-sidepanel-header-close"></std-icon-stub>
+    </div>
+    <div class="std-sidepanel-body">
+      <std-main-menu-stub></std-main-menu-stub>
+    </div>
+  </nav>
+</aside>
+`;

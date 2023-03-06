@@ -1,0 +1,114 @@
+// This file is part of Shants Tech LLC
+//
+// Copyright (C) 2020 Shants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+@import '../../../styles';
+@import 'variables';
+
+.std-checkbox-wrapper {
+  & label {
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    font-family: $std-input-control-font-family;
+    color: $std-checkbox-label-color;
+    font-size: $std-input-control-font-size;
+    font-weight: $std-input-control-font-weight;
+    width: fit-content;
+
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+    & input[type='checkbox'] {
+      opacity: 0;
+      position: absolute;
+      + .std-checkbox-input {
+        background-color: $std-white-color;
+        .std-checkbox-input-icon {
+          opacity: 0;
+        }
+      }
+
+      &:checked + .std-checkbox-input {
+        background-color: $std-checkbox-checked-background-color;
+        .std-checkbox-input-icon {
+          opacity: 1;
+        }
+      }
+
+      &:checked:disabled + .std-checkbox-input {
+        background-color: $std-checkbox-disabled-background-color;
+        .std-checkbox-input-icon {
+          opacity: 1;
+        }
+      }
+
+      &:disabled + .std-checkbox-input {
+        background-color: $std-checkbox-disabled-background-color;
+        .std-checkbox-input-icon {
+          opacity: 0;
+        }
+      }
+    }
+
+    &.--disabled {
+      color: $std-checkbox-label-color--disabled;
+      cursor: unset;
+    }
+  }
+}
+
+.std-checkbox-input {
+  position: relative;
+  display: flex;
+  border-radius: $std-checkbox-border-radius;
+  width: $std-checkbox-width;
+  height: $std-checkbox-height;
+
+  &.--label-left {
+    margin-left: $std-checkbox-label-margin;
+  }
+
+  &.--label-right {
+    margin-right: $std-checkbox-label-margin;
+  }
+
+  &--active {
+    border: $std-checkbox-border;
+  }
+
+  &--focus {
+    border: $std-input-border--focus;
+    box-shadow: $std-input-box-shadow--focus;
+    outline: 0;
+  }
+
+  &--error {
+    border: $std-input-border--error;
+    box-shadow: $std-input-box-shadow--error;
+  }
+
+  &-icon {
+    color: $std-primary-font-color;
+    font-size: $std-checkbox-check-font-size;
+    position: absolute;
+    line-height: 1.5;
+    align-self: center;
+  }
+}

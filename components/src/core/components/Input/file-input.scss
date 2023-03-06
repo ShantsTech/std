@@ -1,0 +1,105 @@
+// This file is part of Shants Tech LLC
+//
+// Copyright (C) 2020 Shants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+@import '../../../styles';
+@import 'variables';
+
+.std-file-input {
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  max-width: 0;
+  width: 0;
+}
+
+.std-file-div {
+  @include std-input-control;
+  @include std-input-control-size;
+  padding: 0;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  word-wrap: break-word;
+  min-height: $std-input-min-height;
+  background-color: $std-file-input-background-color;
+
+  &--active {
+    border: $std-input-border--active;
+  }
+
+  &--focus {
+    border: $std-input-border--focus;
+    box-shadow: $std-input-box-shadow--focus;
+    outline: 0;
+  }
+
+  &--error {
+    border: $std-input-border--error;
+    box-shadow: $std-input-box-shadow--error;
+  }
+
+  &--disabled,
+  &--readonly {
+    background: $std-input-background--disabled;
+  }
+}
+
+.std-file-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $std-file-button-color;
+  border-radius: $std-input-control-border-radius;
+  background-color: $std-file-button-background-color;
+  font-size: $std-file-button-font-size;
+  font-weight: $std-file-button-font-weight;
+  height: $std-file-button-height;
+  padding: 0 $std-file-button-padding-horizontal;
+  margin-left: $std-file-input-horizontal-margin;
+  &.--disabled {
+    cursor: unset;
+    color: $std-file-button-color--disabled;
+    background-color: $std-file-button-background-color--disabled;
+  }
+}
+
+.std-file-input-div {
+  @include std-input-control;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.std-file-input-icon {
+  margin-left: auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  width: $std-file-button-width;
+  height: $std-file-button-height;
+  border-radius: $std-input-control-border-radius;
+  background-color: $std-file-button-background-color;
+  margin-right: $std-file-input-horizontal-margin;
+  &.--disabled {
+    cursor: unset;
+    color: $std-file-button-color--disabled;
+    background-color: $std-file-button-background-color--disabled;
+  }
+}

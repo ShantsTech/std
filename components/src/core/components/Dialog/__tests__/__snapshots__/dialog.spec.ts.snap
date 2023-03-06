@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog > Dialog.vue should renders STD Dialog > Dialog 1`] = `
+<transition-stub>
+  <div role="dialog" class="std-overlay std-overlay--flex std-overlay--flex-centered">
+    <!--
+    :aria-labelledby="'dialogTitle_' + id"
+    :aria-describedby="'dialogDesc_' + id"
+    -->
+    <div class="std-dialog-container-default">
+      <div class="std-dialog-container-default--inner">
+        <div class="std-sheet std-sheet--rounded std-sheet--white std-dialog-sheet std-dialog-sheet--shadow std-dialog-sheet--gutters" role="document"><button class="std-dialog-close-button std-dialog-close-button-position">×</button></div>
+      </div>
+    </div>
+  </div>
+</transition-stub>
+`;
+
+exports[`Dialog > Dialog.vue should renders STD Dialog > Dialog dialogContainer-div 1`] = `
+<transition-stub>
+  <div role="dialog" class="std-overlay std-overlay--flex std-overlay--flex-centered">
+    <!--
+    :aria-labelledby="'dialogTitle_' + id"
+    :aria-describedby="'dialogDesc_' + id"
+    -->
+    <div>
+      <div class="std-sheet std-sheet--rounded std-sheet--white std-dialog-sheet std-dialog-sheet--shadow std-dialog-sheet--gutters" show="true" role="document"><button class="std-dialog-close-button std-dialog-close-button-position">×</button></div>
+    </div>
+  </div>
+</transition-stub>
+`;
+
+exports[`Dialog > Dialog.vue should renders STD Dialog > Dialog no shadow 1`] = `
+<transition-stub>
+  <div role="dialog" class="std-overlay std-overlay--flex std-overlay--flex-centered">
+    <!--
+    :aria-labelledby="'dialogTitle_' + id"
+    :aria-describedby="'dialogDesc_' + id"
+    -->
+    <div class="std-dialog-container-default">
+      <div class="std-dialog-container-default--inner">
+        <div class="std-sheet std-sheet--rounded std-sheet--white std-dialog-sheet std-dialog-sheet--gutters" show="true" role="document"><button class="std-dialog-close-button std-dialog-close-button-position">×</button></div>
+      </div>
+    </div>
+  </div>
+</transition-stub>
+`;
+
+exports[`Dialog > Dialog.vue should renders STD Dialog > Dialog persistent 1`] = `
+<transition-stub>
+  <div role="dialog" class="std-overlay std-overlay--flex std-overlay--flex-centered">
+    <!--
+    :aria-labelledby="'dialogTitle_' + id"
+    :aria-describedby="'dialogDesc_' + id"
+    -->
+    <div class="std-dialog-container-default">
+      <div class="std-dialog-container-default--inner">
+        <div class="std-sheet std-sheet--rounded std-sheet--white std-dialog-sheet std-dialog-sheet--shadow std-dialog-sheet--gutters" show="true" role="document"><button class="std-dialog-close-button std-dialog-close-button-position">×</button></div>
+      </div>
+    </div>
+  </div>
+</transition-stub>
+`;
+
+exports[`Dialog > Dialog.vue should renders STD Dialog > Dialog show 1`] = `
+<transition-stub>
+  <div role="dialog" class="std-overlay std-overlay--flex std-overlay--flex-centered">
+    <!--
+    :aria-labelledby="'dialogTitle_' + id"
+    :aria-describedby="'dialogDesc_' + id"
+    -->
+    <div class="std-dialog-container-default">
+      <div class="std-dialog-container-default--inner">
+        <div class="std-sheet std-sheet--rounded std-sheet--white std-dialog-sheet std-dialog-sheet--shadow std-dialog-sheet--gutters" show="true" role="document"><button class="std-dialog-close-button std-dialog-close-button-position">×</button></div>
+      </div>
+    </div>
+  </div>
+</transition-stub>
+`;
+
+exports[`Dialog > Dialog.vue should renders STD Dialog > Dialog witout close 1`] = `
+<transition-stub>
+  <div role="dialog" class="std-overlay std-overlay--flex std-overlay--flex-centered">
+    <!--
+    :aria-labelledby="'dialogTitle_' + id"
+    :aria-describedby="'dialogDesc_' + id"
+    -->
+    <div class="std-dialog-container-default">
+      <div class="std-dialog-container-default--inner">
+        <div class="std-sheet std-sheet--rounded std-sheet--white std-dialog-sheet std-dialog-sheet--shadow std-dialog-sheet--gutters" show="true" role="document"></div>
+      </div>
+    </div>
+  </div>
+</transition-stub>
+`;

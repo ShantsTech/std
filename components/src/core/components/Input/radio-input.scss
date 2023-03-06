@@ -1,0 +1,98 @@
+// This file is part of Shants Tech LLC
+//
+// Copyright (C) 2020 Shants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+@import '../../../styles';
+@import 'variables';
+
+.std-radio-wrapper {
+  & label {
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    font-family: $std-input-control-font-family;
+    color: $std-radio-label-color;
+    font-size: $std-input-control-font-size;
+    font-weight: $std-input-control-font-weight;
+    width: fit-content;
+    padding: 0.25rem 0.5rem;
+
+    &:hover {
+      background-color: rgb(0 0 0 / 5%);
+      border-radius: 1rem;
+    }
+
+    &.--disabled {
+      color: $std-radio-label-color--disabled;
+      cursor: unset;
+      background-color: unset;
+      border-radius: unset;
+    }
+
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+    & input[type='radio'] {
+      opacity: 0;
+      position: absolute;
+      + .std-radio-input {
+        background-color: $std-white-color;
+      }
+
+      &:checked + .std-radio-input {
+        box-shadow: inset 0 0 0 0.3rem $std-radio-checked-color;
+      }
+
+      &:checked:disabled + .std-radio-input {
+        box-shadow: inset 0 0 0 0.3rem $std-radio-checked-disabled-color;
+      }
+    }
+  }
+}
+
+.std-radio-input {
+  position: relative;
+  display: flex;
+  border-radius: 100%;
+  width: $std-radio-width;
+  height: $std-radio-height;
+
+  &.--label-left {
+    margin-left: $std-radio-label-margin;
+  }
+
+  &.--label-right {
+    margin-right: $std-radio-label-margin;
+  }
+
+  &--active {
+    border: $std-input-border--active;
+  }
+
+  &--focus {
+    border: $std-input-border--focus;
+    box-shadow: $std-input-box-shadow--focus;
+    outline: 0;
+  }
+
+  &--error {
+    border: $std-input-border--error;
+    box-shadow: $std-input-box-shadow--error;
+  }
+}

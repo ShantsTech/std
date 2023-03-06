@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardTable > TableBody.vue renders STD CardTable > TableBody 1`] = `<div class="std-table-body" role="rowgroup"></div>`;

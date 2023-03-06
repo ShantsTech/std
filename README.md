@@ -1,7 +1,9 @@
-## Orange eXperience Design
-orange experience design is a component library that based STHTM 1.x version 
+## ShantsTech Experience Design
+ShantsTech Experience Design is a component library that based STHRM 1.x version 
 
-Copyright (C) 2023 Stants Tech LLC., http://www.shants-tech.com/
+ Copyright (C) 2020 Shants Tech LLC., http://www.shants-tech.com/
+
+STD is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 ### Technology Stack 
 * Vue3 

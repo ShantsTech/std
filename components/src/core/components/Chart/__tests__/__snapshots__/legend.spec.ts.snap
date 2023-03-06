@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chart > Legend.vue should renders STD chart legend 1`] = `
+<ul class="std-chart-legend">
+  <li><span class="std-chart-legend-key" style="background-color: red;"></span><span class="std-text std-text--span" title="STEM">STEM</span></li>
+  <li><span class="std-chart-legend-key" style="background-color: green;"></span><span class="std-text std-text--span" title="Arts">Arts</span></li>
+  <li><span class="std-chart-legend-key" style="background-color: blue;"></span><span class="std-text std-text--span" title="Law">Law</span></li>
+  <li><span class="std-chart-legend-key" style="background-color: yellow;"></span><span class="std-text std-text--span" title="Management">Management</span></li>
+</ul>
+`;

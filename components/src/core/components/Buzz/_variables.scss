@@ -1,0 +1,33 @@
+// This file is part of Shants Tech LLC
+//
+// Copyright (C) 2020 Shants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+$std-buzz-post-input-height: 30px !default;
+$std-buzz-post-input-margin: 0.35rem !default;
+$std-buzz-post-input-min-height: 5rem !default;
+$std-buzz-post-input-border--active: $std-input-control-border--active !default;
+$std-buzz-post-input-border--focus: $std-input-control-border--focus !default;
+$std-buzz-post-input-border--error: $std-input-control-border--error !default;
+$std-buzz-post-input-box-shadow--focus: $std-input-control-box-shadow--focus !default;
+$std-buzz-post-input-box-shadow--error: $std-input-control-box-shadow--error !default;
+$std-buzz-post-input-scrollbar-thumb-color: $std-scrollbar-thumb-color !default;
+$std-buzz-post-input-scrollbar-track-color: $std-scrollbar-track-color !default;
+$std-buzz-post-input-background-color--disabled: #f0f0fc !default;
+
+$std-buzz-post-message-margin-top: 5px !default;
+$std-buzz-post-message-font-size: 12px !default;
+$std-buzz-post-message-font-weight: 600 !default;
+$std-buzz-post-message-error-color: $std-feedback-danger-color !default;

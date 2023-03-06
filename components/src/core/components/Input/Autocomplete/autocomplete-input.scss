@@ -1,0 +1,205 @@
+// This file is part of Shants Tech LLC
+//
+// Copyright (C) 2020 Shants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+@import '../../../../styles';
+@import '../variables';
+
+.std-autocomplete-wrapper {
+  @include std-input-control-size;
+  position: relative;
+  &:focus {
+    outline: none;
+  }
+  & > *:focus {
+    outline: none;
+  }
+}
+
+.std-autocomplete-text-input {
+  padding: 0;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  position: relative;
+  width: inherit;
+  border-radius: $std-input-control-border-radius;
+  min-height: $std-input-min-height;
+  background-color: $std-dropdown-dropdown-background;
+
+  &--active {
+    border: $std-input-border--active;
+  }
+
+  &--focus {
+    border: $std-input-border--focus;
+    box-shadow: $std-input-box-shadow--focus;
+    outline: 0;
+  }
+
+  &--error {
+    border: $std-input-border--error;
+    box-shadow: $std-input-box-shadow--error;
+  }
+
+  &--disabled,
+  &--readonly {
+    background: $std-dropdown-dropdown-background--disabled;
+  }
+
+  input {
+    @include std-input-control;
+    width: 100%;
+    outline: 0;
+    border: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background: transparent;
+  }
+
+  &--before,
+  &--after {
+    @include std-input-control;
+    color: $std-dropdown-dropdown-slot-color;
+    border: none;
+    min-width: 0;
+    flex-shrink: 0;
+    margin: 0;
+    &:empty {
+      display: none;
+    }
+  }
+
+  &--before {
+    margin-left: auto;
+    padding-right: 0;
+  }
+  &--after {
+    margin-right: auto;
+    padding-left: 0;
+  }
+  &--clear {
+    color: inherit;
+    font-size: inherit;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+}
+
+.std-autocomplete-dropdown {
+  position: absolute;
+  width: inherit;
+  box-sizing: border-box;
+  color: $std-dropdown-dropdown-color;
+  z-index: $std-dropdown-dropdown-z-index;
+  border: $std-dropdown-dropdown-border;
+  padding: $std-dropdown-dropdown-padding;
+  box-shadow: $std-dropdown-dropdown-box-shadow;
+  border-radius: $std-dropdown-dropdown-border-radius;
+  background-color: $std-dropdown-dropdown-background;
+  &.--positon-top {
+    bottom: 100%;
+    margin-bottom: $std-dropdown-dropdown-margin;
+  }
+  &.--positon-bottom {
+    margin-top: $std-dropdown-dropdown-margin;
+  }
+}
+
+.std-autocomplete-option {
+  border: 0;
+  display: flex;
+  align-items: center;
+  text-align: inherit;
+  cursor: pointer;
+  color: $std-dropdown-option-color;
+  font-size: $std-dropdown-option-font-size;
+  font-family: $std-dropdown-option-font-family;
+  font-weight: $std-dropdown-option-font-weight;
+  padding: $std-dropdown-option-padding;
+  border-bottom: $std-dropdown-option-border-bottom;
+  background-color: $std-dropdown-option-background;
+  min-height: $std-dropdown-option-min-height;
+
+  span {
+    word-break: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &:last-child {
+    border-bottom: unset;
+  }
+  &:hover,
+  &.--focused {
+    border-radius: $std-dropdown-option-border-radius;
+    background-color: $std-dropdown-option-background--focused;
+  }
+  &.--disabled {
+    border-radius: $std-dropdown-option-border-radius;
+    color: $std-dropdown-option-color--disabled;
+    cursor: unset;
+    &:hover,
+    &.--focused {
+      background-color: transparent;
+    }
+  }
+  &.--selected {
+    border-radius: $std-dropdown-option-border-radius;
+    color: $std-dropdown-option-color--selected;
+    cursor: unset;
+    &:hover,
+    &.--focused {
+      background-color: transparent;
+    }
+  }
+  @for $i from 1 through 20 {
+    $value: $i * 0.5;
+    &.--indent-#{$i} {
+      padding-left: #{$value}rem;
+    }
+  }
+}
+
+.std-autocomplete-chips-area {
+  display: flex;
+  flex-wrap: wrap;
+  padding: $std-dropdown-chip-area-padding;
+  justify-content: flex-start;
+  & .std-autocomplete-chips-selected {
+    display: flex;
+    font-family: $std-input-control-font-family;
+    color: $std-input-control-font-color;
+    background-color: $std-dropdown-chip-background-color;
+    margin-right: $std-dropdown-chip-margin;
+    margin-bottom: $std-dropdown-chip-margin;
+    & .--clear {
+      cursor: pointer;
+      border-radius: $std-dropdown-chip-border-radius;
+      background-color: $std-dropdown-chip-clear-background-color;
+      color: $std-dropdown-chip-clear-font-color;
+      margin-left: $std-dropdown-chip-margin;
+    }
+    & .--disabled,
+    & .--readonly {
+      cursor: unset;
+    }
+  }
+}

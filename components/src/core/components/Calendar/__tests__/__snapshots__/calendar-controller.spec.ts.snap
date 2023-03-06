@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalendarController.vue renders STD CalendarController 1`] = `
+<div class="std-calendar-header"><button class="std-icon-button" type="button"><i class="std-icon bi-chevron-left"></i></button>
+  <ul class="std-calendar-selector">
+    <li class="std-calendar-selector-month">
+      <div class="std-calendar-selector-month-selected">
+        <p class="std-text std-text--p">March</p><i class="std-icon bi-caret-down-fill std-icon-button__icon"></i>
+      </div>
+      <transition-stub>
+        <!--v-if-->
+      </transition-stub>
+    </li>
+    <li class="std-calendar-selector-year">
+      <div class="std-calendar-selector-year-selected">
+        <p class="std-text std-text--p">2020</p><i class="std-icon bi-caret-down-fill std-icon-button__icon"></i>
+      </div>
+      <transition-stub>
+        <!--v-if-->
+      </transition-stub>
+    </li>
+  </ul><button class="std-icon-button" type="button"><i class="std-icon bi-chevron-right"></i></button>
+</div>
+`;

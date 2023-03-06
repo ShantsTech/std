@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button > Icon.vue should renders STD icon button 1`] = `<i class="std-icon bi-trash std-icon-button__icon"></i>`;
+
+exports[`Button > Icon.vue should renders STD icon button with container 1`] = `<button class="std-icon-button" type="button"><i class="std-icon bi-trash"></i></button>`;

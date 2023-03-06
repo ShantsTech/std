@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider.vue renders STD Divider 1`] = `<hr class="std-divider" role="separator" aria-orientation="horizontal">`;
+
+exports[`Divider.vue should renders STD Divider with style 1`] = `<hr class="std-divider" style="border-color: red;" role="separator" aria-orientation="horizontal">`;
