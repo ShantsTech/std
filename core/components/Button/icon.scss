@@ -1,0 +1,130 @@
+// This file is part of Stants Tech LLC
+//
+// Copyright (C) 2020 Stants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+@import '../../../styles';
+@import 'variables';
+@import 'mixins';
+
+.std-icon-button {
+  font-size: $std-icon-button-font-size;
+  font-weight: $std-icon-button-font-weight;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  min-width: $std-icon-button-size;
+  min-height: $std-icon-button-size;
+  padding: $std-icon-button-padding;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  @include std-icon-button();
+  &--main {
+    @include std-icon-button('main');
+  }
+  &--secondary {
+    @include std-icon-button('secondary');
+  }
+  &--info {
+    @include std-icon-button('info');
+  }
+  &--danger {
+    @include std-icon-button('danger');
+  }
+  &--warn {
+    @include std-icon-button('warn');
+  }
+  &--success {
+    @include std-icon-button('success');
+  }
+
+  &--solid {
+    @include std-icon-button-solid();
+    &-main {
+      @include std-icon-button-solid('main');
+    }
+    &-secondary {
+      @include std-icon-button-solid('secondary');
+    }
+    &-info {
+      @include std-icon-button-solid('info');
+    }
+    &-danger {
+      @include std-icon-button-solid('danger');
+    }
+    &-warn {
+      @include std-icon-button-solid('warn');
+    }
+    &-success {
+      @include std-icon-button-solid('success');
+    }
+  }
+
+  &--ghost {
+    @include std-icon-button-ghost();
+    &-main {
+      @include std-icon-button-ghost('main');
+    }
+    &-secondary {
+      @include std-icon-button-ghost('secondary');
+    }
+    &-info {
+      @include std-icon-button-ghost('info');
+    }
+    &-danger {
+      @include std-icon-button-ghost('danger');
+    }
+    &-warn {
+      @include std-icon-button-ghost('warn');
+    }
+    &-success {
+      @include std-icon-button-ghost('success');
+    }
+  }
+
+  &:disabled {
+    background-color: $std-icon-button--disabled;
+    color: $std-icon-button-font-color--disabled;
+    cursor: not-allowed;
+  }
+
+  ::v-deep(.std-icon) {
+    color: inherit;
+  }
+}
+
+.std-icon-button__icon {
+  font-size: $std-icon-button-font-size;
+  font-weight: $std-icon-button-font-weight;
+  color: $std-list-button-font-color;
+  cursor: pointer;
+
+  &:focus,
+  &:hover {
+    outline: 0;
+    color: $std-list-button--hover;
+  }
+
+  &:active {
+    color: $std-list-button--pressed;
+  }
+
+  &.--disabled {
+    color: $std-icon-button-font-color--disabled;
+  }
+}

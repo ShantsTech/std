@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwitchInput.vue renders OXD Switch Input 1`] = `
+<div class="std-switch-wrapper"><label class="">
+    <!--v-if--><input type="checkbox" label="Checkbox"><span class="std-switch-input std-switch-input--active --label-right"></span>
+  </label></div>
+`;
+
+exports[`SwitchInput.vue should renders OXD Input with error 1`] = `
+<div class="std-switch-wrapper"><label class="">
+    <!--v-if--><input type="checkbox" label="Checkbox"><span class="std-switch-input std-switch-input--active std-switch-input--error --label-right"></span>
+  </label></div>
+`;

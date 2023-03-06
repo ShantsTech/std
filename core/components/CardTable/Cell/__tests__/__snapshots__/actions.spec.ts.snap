@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardTable > Cell > Actions.vue should renders OXD CardTable > Cell > Actions 1`] = `<div class="std-table-cell-actions"><button class="std-icon-button std-table-cell-action-space" type="button"><i class="std-icon bi-trash"></i></button><button class="std-icon-button std-table-cell-action-space" type="button"><i class="std-icon bi-pencil-fill"></i></button></div>`;

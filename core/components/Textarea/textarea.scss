@@ -1,0 +1,60 @@
+// This file is part of Stants Tech LLC
+//
+// Copyright (C) 2020 Stants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+@import '../../../styles';
+@import 'variables';
+
+.std-textarea {
+  @include std-input-control;
+  @include std-input-control-size;
+  @include std-scrollbar(
+    $std-textarea-scrollbar-thumb-color,
+    $std-textarea-scrollbar-track-color
+  );
+  min-height: $std-textarea-min-height;
+
+  &--active {
+    border: $std-textarea-border--active;
+  }
+
+  &--focus {
+    border: $std-textarea-border--focus;
+    box-shadow: $std-textarea-box-shadow--focus;
+    outline: 0;
+  }
+
+  &--error {
+    border: $std-textarea-border--error;
+    box-shadow: $std-textarea-box-shadow--error;
+  }
+
+  &--resize-vertical {
+    resize: vertical;
+  }
+
+  &--resize-horizontal {
+    resize: horizontal;
+  }
+
+  &--resize-none {
+    resize: none;
+  }
+
+  &:disabled {
+    background-color: $std-textarea-background-color--disabled;
+  }
+}

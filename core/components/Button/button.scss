@@ -1,0 +1,131 @@
+// This file is part of Stants Tech LLC
+//
+// Copyright (C) 2020 Stants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+@import '../../../styles';
+@import 'variables';
+@import 'mixins';
+
+.std-button {
+  font-family: $std-button-font-family;
+  font-weight: $std-button-font-weight;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  padding-right: $std-button-horizontal-padding;
+  padding-left: $std-button-horizontal-padding;
+  min-width: $std-button-min-width;
+
+  &:focus {
+    outline: 0;
+  }
+
+  /* Main Button */
+  &--main {
+    @include std-button-solid('main');
+  }
+
+  /* Secondary Button */
+  &--secondary {
+    @include std-button-solid('secondary');
+  }
+
+  /* Feedback Buttons */
+  &--info {
+    @include std-button-solid('info');
+  }
+  &--danger {
+    @include std-button-solid('danger');
+  }
+  &--warn {
+    @include std-button-solid('warn');
+  }
+  &--success {
+    @include std-button-solid('success');
+  }
+
+  /* Ghost Button */
+  &--ghost {
+    @include std-button-ghost('default');
+
+    &-info {
+      @include std-button-ghost('info');
+    }
+    &-danger {
+      @include std-button-ghost('danger');
+    }
+    &-warn {
+      @include std-button-ghost('warn');
+    }
+    &-success {
+      @include std-button-ghost('success');
+    }
+  }
+
+  /* Label Button */
+  &--label {
+    @include std-button-label('default');
+
+    &-info {
+      @include std-button-label('info');
+    }
+    &-danger {
+      @include std-button-label('danger');
+    }
+    &-warn {
+      @include std-button-label('warn');
+    }
+    &-success {
+      @include std-button-label('success');
+    }
+  }
+
+  /* Text Button */
+  &--text {
+    @include std-button-label('text');
+  }
+
+  /* Tool Button */
+  &--tool {
+    @include std-button-ghost('tool');
+  }
+}
+
+/* Button Sizes */
+.std-button--small {
+  font-size: $std-button-font-size--small;
+  padding-top: $std-button-vertical-padding--small;
+  padding-bottom: $std-button-vertical-padding--small;
+}
+
+.std-button--medium {
+  font-size: $std-button-font-size--medium;
+  padding-top: $std-button-vertical-padding--medium;
+  padding-bottom: $std-button-vertical-padding--medium;
+}
+
+.std-button--large {
+  font-size: $std-button-font-size--large;
+  padding-top: $std-button-vertical-padding--large;
+  padding-bottom: $std-button-vertical-padding--large;
+}
+
+.std-button-icon {
+  color: inherit;
+  vertical-align: bottom;
+}

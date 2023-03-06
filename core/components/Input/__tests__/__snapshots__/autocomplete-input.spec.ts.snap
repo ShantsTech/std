@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AutocompleteInput.vue renders OXD Autocomplete Input 1`] = `
+<div class="std-autocomplete-wrapper">
+  <div class="std-autocomplete-text-input std-autocomplete-text-input--active">
+    <div class="std-autocomplete-text-input--before"></div><input placeholder="Type for hints...">
+    <div class="std-autocomplete-text-input--after">
+      <!--v-if-->
+    </div>
+  </div>
+  <!--v-if-->
+  <!--v-if-->
+</div>
+`;

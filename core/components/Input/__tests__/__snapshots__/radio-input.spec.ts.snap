@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioInput.vue renders OXD Radio Input 1`] = `
+<div class="std-radio-wrapper"><label class="">
+    <!--v-if--><input type="radio" label="Radio"><span class="std-radio-input std-radio-input--active --label-right std-radio-input"></span>
+  </label></div>
+`;
+
+exports[`RadioInput.vue should renders OXD Radio input with error 1`] = `
+<div class="std-radio-wrapper"><label class="">
+    <!--v-if--><input type="radio" label="Radio"><span class="std-radio-input std-radio-input--active std-radio-input--error --label-right std-radio-input"></span>
+  </label></div>
+`;

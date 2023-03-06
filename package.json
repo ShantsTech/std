@@ -1,6 +1,6 @@
 {
   "name": "@sthrm/std",
-  "version": "1.0.8",
+  "version": "1.0.0",
   "scripts": {
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint --mode production",

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TreeView.vue renders OXD Tree View 1`] = `
+<ul class="std-tree-view">
+  <li class="std-tree-node --last">
+    <div class="--last std-tree-node-wrapper">
+      <!--v-if-->
+      <div class="std-tree-node-content">test</div>
+    </div>
+    <div class="std-tree-node-liner" style="height: 0px;"></div>
+    <!--v-if-->
+  </li>
+</ul>
+`;
