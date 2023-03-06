@@ -1,0 +1,43 @@
+// This file is part of Stants Tech LLC
+//
+// Copyright (C) 2020 Stants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+$std-report-table-frame-border-radius: 1.2rem !default;
+$std-report-table-frame-padding-left: 20px !default;
+$std-report-table-frame-margin-right: 10px !default;
+$std-report-table-frame-padding-right: 20px !default;
+$std-report-table-frame-header-height: 55px !default;
+$std-report-table-frame-background-color: $std-white-color !default;
+$std-report-table-loader-height: 400px !default;
+$std-report-table-loader-background-color: $std-white-color !default;
+
+$std-report-table-body-background-color: $std-white-color !default;
+$std-report-table-body-font-family: $std-font-family !default;
+
+$std-report-table-cell-background-color: $std-white-color !default;
+$std-report-table-cell-background-color-alt: #f6f7fd !default;
+$std-report-table-cell-font-color: $std-interface-gray-darken-1-color !default;
+$std-report-table-cell-font-size: 12px !default;
+$std-report-table-cell-font-weight: 600 !default;
+$std-report-table-cell-border: 1px solid $std-interface-gray-lighten-2-color !default;
+
+$std-report-table-group-header-background-color: $std-interface-gray-lighten-2-color !default;
+$std-report-table-header-background-color: #f7f8f9 !default;
+$std-report-table-header-border: 1px solid
+  rgba($std-interface-gray-darken-1-color, 0.2) !default;
+$std-report-table-header-font-color: $std-interface-gray-darken-2-color !default;
+$std-report-table-header-font-size: 14px !default;
+$std-report-table-header-font-weight: 800 !default;

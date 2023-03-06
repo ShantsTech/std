@@ -1,0 +1,62 @@
+<!--
+/*
+ * This file is part of Stants Tech LLC
+ *
+ * Copyright (C) 2020 Stants Tech LLC
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see  http://www.gnu.org/licenses
+ */
+-->
+
+<template>
+  <div class="std-table-header-cell" role="columnheader">
+    <slot></slot>
+    <std-card-th-sort
+      v-if="order !== undefined"
+      :order="order"
+      @order="onOrder"
+    ></std-card-th-sort>
+  </div>
+</template>
+
+<script lang="ts">
+import {defineComponent} from 'vue';
+import {Order} from '../types';
+import TableHeaderSortDropdown from './TableHeaderSortDropdown.vue';
+
+export default defineComponent({
+  name: 'std-card-th',
+
+  props: {
+    order: {
+      type: String,
+      required: false,
+    },
+  },
+
+  emits: ['order'],
+
+  components: {
+    'std-card-th-sort': TableHeaderSortDropdown,
+  },
+
+  methods: {
+    onOrder(order: Order) {
+      this.$emit('order', order);
+    },
+  },
+});
+</script>
+
+<style src="./table-header-cell.scss" lang="scss" scoped></style>

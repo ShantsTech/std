@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateInput.vue renders OXD Date Input 1`] = `
+<div class="std-date-wrapper">
+  <div class="std-date-input"><input class="std-input std-input--active"><i class="std-icon bi-calendar std-date-input-icon"></i></div>
+  <transition-stub>
+    <!--v-if-->
+  </transition-stub>
+</div>
+`;

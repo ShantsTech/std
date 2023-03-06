@@ -1,0 +1,75 @@
+// This file is part of Stants Tech LLC
+//
+// Copyright (C) 2020 Stants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+@import '../../../styles';
+@import 'variables';
+
+.std-glass-button {
+  border: 0;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  word-break: break-word;
+  gap: $std-glass-button-flex-gap;
+  color: $std-glass-button-font-color;
+  padding: $std-glass-button-padding;
+  font-family: $std-button-font-family;
+  font-weight: $std-button-font-weight;
+  font-size: $std-button-font-size--large;
+  border-radius: $std-glass-button-border-radius;
+  background-color: $std-glass-button-background-color;
+
+  &:focus,
+  &:hover {
+    outline: 0;
+    background-color: $std-glass-button-background-color--focus;
+  }
+
+  &:active {
+    background-color: $std-glass-button-background-color--active;
+  }
+
+  &--disabled {
+    cursor: unset;
+    color: $std-glass-button-font-color--disabled;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $std-glass-button-background-color;
+    }
+  }
+
+  &-icon {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: $std-glass-button-icon-width;
+    height: $std-glass-button-icon-height;
+    &--disabled {
+      opacity: 0.5;
+    }
+    &--videoglass {
+      background-image: url(~assets/images/videoglass.png);
+    }
+    &--cameraglass {
+      background-image: url(~assets/images/cameraglass.png);
+    }
+    &--thumbsupglass {
+      background-image: url(~assets/images/thumbsupglass.png);
+    }
+  }
+}

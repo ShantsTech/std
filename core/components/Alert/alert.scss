@@ -1,0 +1,79 @@
+// This file is part of Stants Tech LLC
+//
+// Copyright (C) 2020 Stants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+@import '../../../styles';
+@import 'variables';
+
+.std-alert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: $std-alert-height;
+  border-radius: $std-alert-border-radius;
+  margin: $std-alert-margin;
+  color: $std-alert-color-default;
+  background-color: $std-alert-bg-color-default;
+  font-size: $std-alert-font-size;
+  font-weight: $std-alert-font-weight;
+
+  &--success {
+    color: $std-alert-color-success;
+    background-color: $std-alert-bg-color-success;
+  }
+
+  &--warn {
+    color: $std-alert-color-warn;
+    background-color: $std-alert-bg-color-warn;
+  }
+
+  &--error {
+    color: $std-alert-color-error;
+    background-color: $std-alert-bg-color-error;
+  }
+
+  &--info {
+    color: $std-alert-color-info;
+    background-color: $std-alert-bg-color-info;
+  }
+
+  &-content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: $std-alert-padding;
+    font-size: inherit;
+    &-text {
+      color: inherit;
+    }
+    &-icon {
+      margin-right: 1rem;
+      font-size: $std-alert-icon-font-size;
+      color: inherit;
+    }
+  }
+
+  &-action {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: $std-alert-padding;
+    ::v-deep(.std-button) {
+      font-size: inherit;
+      margin: 0.1rem 0.2rem;
+    }
+  }
+}

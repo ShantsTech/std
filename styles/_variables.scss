@@ -1,0 +1,78 @@
+// This file is part of Stants Tech LLC
+//
+// Copyright (C) 2020 Stants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+/* Global */
+$std-border: 1px solid !default;
+$std-border-radius: 1.2rem !default;
+$std-scrollbar-thumb-border-radius: 20px !default;
+$std-scrollbar-thumb-color: $std-interface-gray-lighten-1-color !default;
+$std-scrollbar-track-color: $std-background-pastel-white-color !default;
+$std-scrollbar-arrow-color: $std-interface-gray-color !default;
+$std-scrollbar-size: 0.5rem !default;
+
+$std_breakpoints: (
+  'xs': (
+    min-width: 0px,
+  ),
+  'sm': (
+    min-width: 600px,
+  ),
+  'md': (
+    min-width: 800px,
+  ),
+  'lg': (
+    min-width: 1000px,
+  ),
+  'xl': (
+    min-width: 1200px,
+  ),
+);
+
+/* Input Control */
+$std-input-control-font-size: 12px !default;
+$std-input-control-font-color: $std-interface-gray-darken-1-color !default;
+$std-input-control-font-weight: 400 !default;
+$std-input-control-border-radius: 0.65rem !default;
+$std-input-control-line-height: 1.5 !default;
+$std-input-control-font-family: $std-font-family !default;
+$std-input-control-horizontal-padding: 0.5rem !default;
+$std-input-control-vertical-padding: 0.675rem !default;
+$std-input-control-border--active: $std-border
+  $std-interface-gray-lighten-2-color !default;
+$std-input-control-border--focus: $std-border $std-interface-gray-color !default;
+$std-input-control-border--error: $std-border $std-feedback-danger-color !default;
+$std-input-control-box-shadow--focus: 1px 1px 6px rgba(35, 35, 36, 0.12) !default;
+$std-input-control-box-shadow--error: 0 0 5px 0.2rem rgba(223, 9, 16, 0.1) !default;
+$std-input-control-width: 100% !default;
+
+// Dropdown
+$std-dropdown-shadow: 0px 5px 15px -8px rgba(0, 0, 0, 0.15) !default;
+$std-dropdown-border: 1px solid $std-interface-gray-lighten-2-color !default;
+$std-dropdown-border-radius: 0.65rem !default;
+$std-dropdown-background-color: $std-white-color !default;
+$std-dropdown-padding: 4px !default;
+$std-dropdown-item-hover-color: #f6f7f9 !default;
+
+// Global z-index order
+$std-toggle-button-z-index: 100 !default;
+$std-loader-z-index: 200 !default;
+$std-topbar-z-index: 210 !default;
+$std-sidepanel-overlay-z-index: 220 !default;
+$std-sidepanel-z-index: 230 !default;
+$std-dropdown-z-index: 240 !default;
+$std-overlay-z-index: 300 !default;
+$std-dialog-z-index: 400 !default;

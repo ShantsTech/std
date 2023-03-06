@@ -1,0 +1,34 @@
+// This file is part of Stants Tech LLC
+//
+// Copyright (C) 2020 Stants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+$std-table-font-size: 0.75rem !default;
+$std-table-header-font-weight: 700 !default;
+$std-table-font-weight: 400 !default;
+$std-table-font-family: $std-font-family !default;
+$std-table-font-color: $std-interface-gray-darken-1-color !default;
+
+$std-table-row-hover-bg-color: $std-background-light-gray-color;
+$std-table-row-hover-font-color: $std-interface-gray-darken-2-color;
+$std-table-row-border: $std-border !default;
+$std-table-row-border-color: $std-interface-gray-lighten-2-color !default;
+
+$std-table-body-strip-color: $std-background-white-shadow-color !default;
+
+$std-table-tr-bg-color: $std-interface-gray-color;
+$std-table-tr-padding: 25px;
+
+$std-table-cell-padding: 0.65rem;

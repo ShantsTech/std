@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputField.vue renders OXD InputField 1`] = `
+<div class="std-input-group std-input-field-bottom-space">
+  <div class="std-input-group__label-wrapper">
+    <!--v-if-->
+    <!--v-if-->
+  </div>
+  <div class=""><input class="std-input std-input--active"></div>
+  <!--v-if-->
+</div>
+`;
+
+exports[`InputField.vue renders OXD InputField type \`file\` 1`] = `
+<div class="std-input-group std-input-field-bottom-space">
+  <div class="std-input-group__label-wrapper">
+    <!--v-if-->
+    <!--v-if-->
+  </div>
+  <div class=""><input type="file" class="std-file-input">
+    <div class="std-file-div std-file-div--active">
+      <!--v-if-->
+      <div class="std-file-input-div">No file chosen</div><i class="std-icon bi-upload std-file-input-icon"></i>
+    </div>
+  </div>
+  <!--v-if-->
+</div>
+`;
+
+exports[`InputField.vue renders OXD InputField type \`file\` with button 1`] = `
+<div class="std-input-group std-input-field-bottom-space">
+  <div class="std-input-group__label-wrapper">
+    <!--v-if-->
+    <!--v-if-->
+  </div>
+  <div class=""><input type="file" class="std-file-input">
+    <div class="std-file-div std-file-div--active">
+      <div class="std-file-button">Browse</div>
+      <div class="std-file-input-div">No file chosen</div><i class="std-icon bi-upload std-file-input-icon"></i>
+    </div>
+  </div>
+  <!--v-if-->
+</div>
+`;
+
+exports[`InputField.vue renders OXD InputField type \`input\` 1`] = `
+<div class="std-input-group std-input-field-bottom-space">
+  <div class="std-input-group__label-wrapper">
+    <!--v-if-->
+    <!--v-if-->
+  </div>
+  <div class=""><input class="std-input std-input--active"></div>
+  <!--v-if-->
+</div>
+`;
+
+exports[`InputField.vue renders OXD InputField type \`textarea\` 1`] = `
+<div class="std-input-group std-input-field-bottom-space">
+  <div class="std-input-group__label-wrapper">
+    <!--v-if-->
+    <!--v-if-->
+  </div>
+  <div class=""><textarea class="std-textarea std-textarea--active std-textarea--resize-vertical"></textarea></div>
+  <!--v-if-->
+</div>
+`;

@@ -1,0 +1,58 @@
+// This file is part of Stants Tech LLC
+//
+// Copyright (C) 2020 Stants Tech LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see  http://www.gnu.org/licenses
+
+@import '../../../../styles';
+@import 'variables';
+
+.std-table-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 100%;
+  padding-left: $std-table-row-left-padding;
+  padding-right: $std-table-row-right-padding;
+  @include std-respond-to('md') {
+    ::v-deep(.std-table-cell:first-of-type) {
+      margin-left: $std-table-cell-left-margin;
+    }
+    ::v-deep(.std-table-header-cell:first-of-type) {
+      margin-left: $std-table-cell-left-margin;
+    }
+  }
+}
+
+.std-table-body > .std-table-row {
+  &:hover {
+    color: $std-table-row-hover-font-color;
+    background-color: $std-table-row-hover-bg-color;
+  }
+
+  &--with-border {
+    border-top: $std-table-row-border $std-table-row-border-color;
+  }
+}
+
+.std-table-row--clickable {
+  cursor: pointer;
+}
+
+.std-table-card.--mobile {
+  .std-table-row {
+    align-items: flex-start;
+  }
+}
